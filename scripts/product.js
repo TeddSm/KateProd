@@ -5,12 +5,13 @@ async function loadProductDetails() {
     if (!productId) return;
 
     try {
-        const response = await fetch('../data/data.json');
+        const response = await fetch('../../data/data.json');
         const products = await response.json();
 
         const product = products.find(p => p.id == productId);
 
         if (product) {
+            document.getElementById('js-page-title').innerText = product.title;
             document.getElementById('js-product-img').src = product.img;
             document.getElementById('js-product-img').alt = product.title;
             document.getElementById('js-product-title').innerText = product.title;

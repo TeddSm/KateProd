@@ -6,19 +6,29 @@ export async function getAllProducts() {
 }
 
 export async function getFilteredProducts() {
-    const response = await fetch('../data/data.json');
+    const response = await fetch('../../data/data.json');
     const products = await response.json();
 
     const pagePath = window.location.pathname;
     let currentCategory = "";
     let isCatalog = false;
-    if (pagePath.includes("catalog.html")) {
+    if (pagePath.includes("products.html")) {
         isCatalog = true;
     } else if (pagePath.includes("moldings.html")) {
         currentCategory = "molding";
     } else if (pagePath.includes("cornies.html")) {
         currentCategory = "cornice";
-    }
+    } else if (pagePath.includes("skirting.html")) {
+        currentCategory = "skirting";
+    } else if (pagePath.includes("wallpanels.html")) {
+        currentCategory = "wallpanel";
+    } else if (pagePath.includes("light.html")) {
+        currentCategory = "light";
+    } else if (pagePath.includes("scenery.html")) {
+        currentCategory = "scenery";
+    } else if (pagePath.includes("glues-tools.html")) {
+        currentCategory = "tool";
+    } 
     if (isCatalog) {
         return products;
     } else {

@@ -88,6 +88,7 @@ section {
 
 .nav-list-right {
     justify-content: right; 
+    align-items: center;
 }
 
 .nav-list-item-submenu {
@@ -119,6 +120,10 @@ position: relative;
 
 .ld-logo {
 max-width: 240px;
+}
+
+.search-icon {
+    width: 15px;
 }
 
 .hero-bg {
