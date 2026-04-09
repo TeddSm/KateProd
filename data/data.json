@@ -5,6 +5,7 @@
     "title": "Карниз стельовий C1",
     "price": 210,
     "img": "../../data/dataImg/cornice1.webp",
+    "brand": "NMC",
     "desc": "Класичний карниз для високих стель."
   },
   {
@@ -13,6 +14,7 @@
     "title": "Молдинг стіновий M5",
     "price": 150,
     "img": "../../data/dataImg/cornice1.webp",
+    "brand": "ORAC",
     "desc": "Тонкий молдинг для зонування стін."
   },
   {
@@ -21,6 +23,7 @@
     "title": "Карниз стельовий C2",
     "price": 170,
     "img": "../../data/dataImg/cornice1.webp",
+    "brand": "None",
     "desc": "Класичний карниз для високих стель."
   },
   {
@@ -30,6 +33,7 @@
     "price": 170,
     "img": "../../data/dataImg/cornice1.webp",
     "newArrivals": true,
+    "brand": "None",
     "desc": "Класичний карниз для високих стель."
   },
   {
@@ -39,6 +43,7 @@
     "price": 170,
     "img": "../../data/dataImg/cornice1.webp",
     "newArrivals": true,
+    "brand": "None",
     "desc": "Класичний карниз для високих стель."
   }
 ]

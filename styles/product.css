@@ -1,3 +1,48 @@
+.filter-container {
+  display: none;
+}
+
+.filter-container.is-open {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  transition: opacity 0.4s ease;
+  z-index: 1000;
+}
+
+.filter-close-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: none;
+}
+
+.filter-menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.filter-checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filter-checkbox-container {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-close-icon {
+  width: 50px;
+}
+
 .page-title {
   text-align: center;
   border-bottom: 1px solid black;
@@ -6,6 +51,8 @@
 .product-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
