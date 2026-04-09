@@ -326,6 +326,7 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  row-gap: 20px;
 }
 
 .productions-card-container {
@@ -352,6 +353,22 @@ section {
   padding: 10px;
   background-color: rgb(0, 0, 0);
   border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .productions-card {
+        flex-direction: column; 
+        text-align: center;     
+    }
+
+    .productions-card-container {
+        order: 1; 
+    }
+
+    .productions-img {
+        order: 2; 
+        width: 100%; 
+    }
 }
 
 .footer-container {

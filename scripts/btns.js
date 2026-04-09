@@ -11,16 +11,22 @@ if (backBtn) {
   });
 }
 
+const searchBtn = document.querySelector("#search-btn")
 const searchInput = document.querySelector("#search-input");
-if (searchInput) {
-  searchInput.addEventListener("input", async (e) => {
-    const query = e.target.value.toLowerCase().trim();
+if (searchInput && searchBtn) {
+  searchBtn.addEventListener("click", async (e) => {
+    const query = searchInput.value.toLowerCase().trim();
     const products = await getFilteredProducts();
-
     const filtered = products.filter((item) =>
       item.title.toLowerCase().includes(query),
     );
     renderProducts(filtered);
+    searchInput.value = "";
+  });
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      searchBtn.click();
+    }
   });
 }
 
