@@ -1,58 +1,58 @@
 export async function getAllProducts() {
-    const response = await fetch('../data/data.json');
-    const products = await response.json();
+  const response = await fetch("../data/data.json");
+  const products = await response.json();
 
-    return products;
+  return products;
 }
 
 export async function getFilteredProducts() {
-    const response = await fetch('../../data/data.json');
-    const products = await response.json();
+  const response = await fetch("../../data/data.json");
+  const products = await response.json();
 
-    const pagePath = window.location.pathname;
-    let currentCategory = "";
-    let isCatalog = false;
-    if (pagePath.includes("products.html")) {
-        isCatalog = true;
-    } else if (pagePath.includes("moldings.html")) {
-        currentCategory = "molding";
-    } else if (pagePath.includes("cornies.html")) {
-        currentCategory = "cornice";
-    } else if (pagePath.includes("skirting.html")) {
-        currentCategory = "skirting";
-    } else if (pagePath.includes("wallpanels.html")) {
-        currentCategory = "wallpanel";
-    } else if (pagePath.includes("light.html")) {
-        currentCategory = "light";
-    } else if (pagePath.includes("scenery.html")) {
-        currentCategory = "scenery";
-    } else if (pagePath.includes("glues-tools.html")) {
-        currentCategory = "tool";
-    } 
-    if (isCatalog) {
-        return products;
-    } else {
-        return products.filter(item => item.category === currentCategory);
-    }
+  const pagePath = window.location.pathname;
+  let currentCategory = "";
+  let isCatalog = false;
+  if (pagePath.includes("products.html")) {
+    isCatalog = true;
+  } else if (pagePath.includes("moldings.html")) {
+    currentCategory = "molding";
+  } else if (pagePath.includes("cornies.html")) {
+    currentCategory = "cornice";
+  } else if (pagePath.includes("skirting.html")) {
+    currentCategory = "skirting";
+  } else if (pagePath.includes("wallpanels.html")) {
+    currentCategory = "wallpanel";
+  } else if (pagePath.includes("light.html")) {
+    currentCategory = "light";
+  } else if (pagePath.includes("scenery.html")) {
+    currentCategory = "scenery";
+  } else if (pagePath.includes("glues-tools.html")) {
+    currentCategory = "tool";
+  }
+  if (isCatalog) {
+    return products;
+  } else {
+    return products.filter((item) => item.category === currentCategory);
+  }
 }
 
 export function renderProducts(productsArray) {
-    const listContainer = document.getElementById('product-list');
-    if (!listContainer) return;
+  const listContainer = document.getElementById("product-list");
+  if (!listContainer) return;
 
-    listContainer.innerHTML = "";
+  listContainer.innerHTML = "";
 
-    if (productsArray.length === 0) {
-        listContainer.innerHTML = `
+  if (productsArray.length === 0) {
+    listContainer.innerHTML = `
             <li class="no-results">
                 <p>На жаль, за вашим запитом нічого не знайдено 🔍</p>
             </li>
         `;
-        return;
-    }
+    return;
+  }
 
-    productsArray.forEach(product => {
-        const cardHTML = `
+  productsArray.forEach((product) => {
+    const cardHTML = `
             <li class="product-item">
                 <article class="product-card">
                     <img src="${product.img}" alt="${product.title}" class="product-card-img">
@@ -65,13 +65,13 @@ export function renderProducts(productsArray) {
                 </article>
             </li>
         `;
-        listContainer.innerHTML += cardHTML;
-    });
+    listContainer.innerHTML += cardHTML;
+  });
 }
 
 export async function init() {
-    const filteredData = await getFilteredProducts(); 
-    renderProducts(filteredData); 
+  const filteredData = await getFilteredProducts();
+  renderProducts(filteredData);
 }
 
 init();
