@@ -41,11 +41,28 @@
                 />
                 <span class="checkbox-text">ORAC</span>
               </div>
+              <div class="filter-checkbox-container">
+                <input
+                  type="checkbox"
+                  class="checkbox-input"
+                  id="checkboxInputNmc"
+                  value="None"
+                />
+                <span class="checkbox-text">NONE</span>
+              </div>
             </label>
           </div>
-          <h3 class="filter-title">Ціна</h3>
-          <h3 class="filter-title">Назва</h3>
-          <button class="filter-go-btn" id="filterGoBtn">Фільтрувати</button>
+          <div class="sort-container">
+            <h3>Ціна</h3>
+            <select id="sortPrice" class="sort-select">
+              <option value="default">Сортування (за замовчуванням)</option>
+              <option value="asc">Від дешевих до дорогих</option>
+              <option value="desc">Від дорогих до дешевих</option>
+            </select>
+          </div>
+          <button class="filter-go-btn back-btn" id="filterGoBtn">
+            Фільтрувати
+          </button>
           <button class="filter-close-btn" id="closeFilterBtn">
             <img
               src="../../images/icons/close.png"

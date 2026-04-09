@@ -67,22 +67,34 @@ if (goFilter) {
   });
 }
 
+const sortSelect = document.querySelector("#sortPrice");
+
+function sortProducts(products, type) {
+  const sorted = [...products];
+
+  if (type === "asc") {
+    sorted.sort((a, b) => a.price - b.price);
+  } else if (type === "desc") {
+    sorted.sort((a, b) => b.price - a.price);
+  }
+
+  return sorted;
+}
+
 async function filterByBrand() {
   const brandCheckboxes = document.querySelectorAll(".checkbox-input");
+  const sortSelect = document.querySelector("#sortPrice"); // Переконайся, що ID правильний
   const selectedBrands = Array.from(brandCheckboxes)
     .filter((cb) => cb.checked)
     .map((cb) => cb.value.toLowerCase());
-
-  const allProducts = await getFilteredProducts();
-
-  if (selectedBrands.length === 0) {
-    renderProducts(allProducts);
-    return;
+  let products = await getFilteredProducts();
+  if (selectedBrands.length > 0) {
+    products = products.filter((product) => {
+      if (!product.brand) return false;
+      return selectedBrands.includes(product.brand.toLowerCase());
+    });
   }
-
-  const filtered = allProducts.filter((product) =>
-    selectedBrands.includes(product.brand.toLowerCase())
-  );
-
-  renderProducts(filtered);
+  const sortType = sortSelect ? sortSelect.value : "default";
+  products = sortProducts(products, sortType);
+  renderProducts(products);
 }

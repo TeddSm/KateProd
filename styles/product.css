@@ -5,9 +5,29 @@
 .filter-container.is-open {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   transition: opacity 0.4s ease;
   z-index: 1000;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+
+@media (max-width: 768px) {
+  .filter-container.is-open {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: opacity 0.4s ease;
+    z-index: 1000;
+  }
+}
+
+.filter-go-btn {
+  margin: auto;
+  width: 120px;
+  height: 60px;
 }
 
 .filter-close-btn {
