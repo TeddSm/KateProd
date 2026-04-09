@@ -23,3 +23,17 @@ if (searchInput) {
     renderProducts(filtered);
   });
 }
+
+const closeBtn = document.getElementById("close-btn");
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById('menuMobile');
+if(menuBtn) {
+  menuBtn.addEventListener("click", () => {
+menu.classList.add('is-open');
+  })
+};
+if(closeBtn) {
+  closeBtn.addEventListener("click", () => {
+    menu.classList.remove('is-open');
+  })
+};

@@ -13,7 +13,8 @@
           <ul class="nav-list-left nav-list">
             <li class="nav-list-item-submenu">
               <a href="./pages/products/products.html" class="nav-list-item"
-                >ПРОДУКЦІЯ</a>
+                >ПРОДУКЦІЯ</a
+              >
               <div class="mega-menu">
                 <ul class="mega-menu-list">
                   <li class="mega-menu-list">
@@ -64,11 +65,37 @@
               /></a>
             </li>
           </ul>
-          <a href="./"><img src="./images/icons/menu.png" alt="menu" class="menu-icon"></a>
+          <button class="menu-open-btn" id="menu-btn">
+            <img
+              src="./images/icons/menu.png"
+              alt="Меню"
+              class="menu-open-icon"
+            />
+          </button>
         </nav>
       </div>
     </header>
     <main>
+      <section class="menu-mobile" id="menuMobile">
+        <div class="container menu-container">
+        <button class="menu-close-btn" id="close-btn">
+          <img
+            src="./images/icons/close.png"
+            class="menu-close-icon"
+            alt="Закрити"
+          />
+        </button>
+        <h2 class="menu-title">Меню</h2>
+        <nav class="menu-nav">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="./pages/products/products.html" class="menu-link">Продукція</a></li>
+            <li class="menu-item"><a href="./.html" class="menu-link">Натхнення</a></li>
+            <li class="menu-item"><a href="./.html" class="menu-link">Завантаження</a></li>
+            <li class="menu-item"><a href="./.html" class="menu-link">Контакти</a></li>
+          </ul>
+        </nav>
+        </div>
+      </section>
       <section class="hero">
         <div class="container hero-container">
           <div class="hero-bg">
@@ -98,7 +125,9 @@
                     Елемент який допомагає створити інтер'єр в будь якому стилі,
                     від витонченої класики до сучасного мінімалізму.
                   </p>
-                  <a href="./pages/products/cornies.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/cornies.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -120,7 +149,9 @@
                     Перетвори свої стіни в витвір мистецтва. Зроби інтер'єр
                     стильним та вишуканим.
                   </p>
-                  <a href="./pages/products/moldings.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/moldings.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -133,7 +164,9 @@
                   <p class="productions-card-text">
                     Гармонійний перехід від підлоги до стін.
                   </p>
-                  <a href="./pages/products/skirting.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/skirting.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -155,7 +188,9 @@
                     Яскрава родзинка інтер'єру. Додайте об'єм, форму на пласку
                     стіну.
                   </p>
-                  <a href="./pages/products/wallpanels.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/wallpanels.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -169,7 +204,9 @@
                     Ваш інтер'єр стане більш атмосферним, за допомогою світла
                     додайте більше ефектів, більше сценарієв освітлення.
                   </p>
-                  <a href="./pages/products/light.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/light.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -190,7 +227,9 @@
                   <p class="productions-card-text">
                     Часточка класичної архітектури.
                   </p>
-                  <a href="./pages/products/scenery.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/scenery.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -201,7 +240,9 @@
                 <div class="productions-card-container">
                   <h3 class="productions-card-title">Клеї та інструмент</h3>
                   <p class="productions-card-text"></p>
-                  <a href="./pages/products/glues-tools.html" class="productions-card-btn"
+                  <a
+                    href="./pages/products/glues-tools.html"
+                    class="productions-card-btn"
                     >Детальніше</a
                   >
                 </div>
@@ -296,4 +337,5 @@
       </div>
     </footer>
   </body>
+  <script type="module" src="./scripts/btns.js"></script>
 </html>
