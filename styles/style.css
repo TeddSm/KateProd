@@ -1,3 +1,34 @@
+@font-face {
+    font-family: 'Candara';
+    src: url('../fonts/Candara.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Candara';
+    src: url('../fonts/Candarab.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Candara', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 a {
     text-decoration: none; 
     color: inherit;
@@ -7,6 +38,12 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
 
 .container {
@@ -80,26 +117,70 @@ position: relative;
     transform: translateY(0); 
 }
 
-.hero {
+.ld-logo {
+max-width: 240px;
+}
+
+.hero-bg {
     display: flex;
-    justify-content: center;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-image: url("../images/hero.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh; 
+    height: 100vh; 
     width: 100%;
+    position: relative; 
+    overflow: hidden;
 }
 
-.hero-title {
-    color: aliceblue;
-    padding: 15px 20px;
-    background-color: rgba(0, 0, 0, 0.247);
+.orac-logo, .noel-logo {
+    position: relative;
+    z-index: 10; 
 }
 
-.description {
-    padding: 200px 0;
+.hero-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-photo {
+    background-image: url("../images/hero-light-bg.png"); 
+    z-index: 1; 
+}
+
+.right-photo {
+    background-image: url("../images/hero-bg.jpeg");  
+    z-index: 2; 
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.hero-text-container {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text-par {
+    max-width: 520px;
+    text-align: center;
+}
+
+.orac-logo {
+    width: 100px;
+}
+
+.noel-logo {
+    width: 200px;
 }
 
 .productions-container {
@@ -109,15 +190,20 @@ position: relative;
     align-items: center;
 }
 
+.productions-title {
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .productions-list {
     display: flex;
     flex-direction: column;
-    gap: 100px;
 }
 
 .productions-img {
-    width: 600px;
-    height: 600px;
+    width: 50%;
 }
 
 .productions-card {
@@ -132,16 +218,12 @@ position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 0.5px solid rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.05);
-    max-width: 600px;
-    height: 600px;
+    width: 50%;
+    text-align: center;
 }
 
 .productions-card-text {
-    padding: 0px 10px;
+    padding: 0px 40px 20px 40px;
 }
 
 .productions-card-btn {
@@ -175,6 +257,10 @@ position: relative;
     max-width: 400px;
 }
 
+.new-product-card-price {
+    margin-bottom: 20px;
+}
+
 .new-product-card-btn {
     color: aliceblue;
     padding: 10px;
@@ -182,26 +268,59 @@ position: relative;
     border-radius: 15px;
 }
 
-.contacts-container {
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 25px;
+    background-color: #E8E0D5;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-clients-container {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.footer-contacts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-tel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-tel-link {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer {
-    background-color: #868686;
-    padding: 15px 0px;
+.footer-icon {
+    width: 20px;
+    margin-left: 40px;
 }
 
-.footer-container {
+.footer-social-icon {
+    width: 20px;
+}
+
+.footer-social-list {
     display: flex;
-    justify-content: center;
-    align-items: start;
-    gap: 25px;
+    gap: 10px;
 }
 
-.footer-title {
-    margin-top: 0px;
-    text-transform: uppercase;
+.footer-about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
