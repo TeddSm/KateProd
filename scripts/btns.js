@@ -98,3 +98,17 @@ async function filterByBrand() {
   products = sortProducts(products, sortType);
   renderProducts(products);
 }
+
+const menuLinks = document.querySelectorAll('.mega-menu-link');
+const menuPicture = document.querySelector('.mega-menu-picture');
+
+menuLinks.forEach(link => {
+  link.addEventListener('mouseenter', () => {
+    const newImg = link.getAttribute('data-image');
+    if (newImg) {
+      menuPicture.style.backgroundImage = `url(${newImg})`;
+    }
+  });
+  link.addEventListener('mouseleave', () => {
+  });
+});

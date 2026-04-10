@@ -45,5 +45,50 @@
     "newArrivals": true,
     "brand": "None",
     "desc": "Класичний карниз для високих стель."
+  },
+  {
+    "id": 6,
+    "category": "skirting",
+    "title": "Плінтус стельовий C22",
+    "price": 370,
+    "img": "../../data/dataImg/cornice1.webp",
+    "brand": "None",
+    "desc": "Класичний карниз для високих стель."
+  },
+  {
+    "id": 7,
+    "category": "wallpanel",
+    "title": "Панель стінова стельовий C22",
+    "price": 370,
+    "img": "../../data/dataImg/cornice1.webp",
+    "brand": "None",
+    "desc": "Класичний карниз для високих стель."
+  },
+  {
+    "id": 8,
+    "category": "light",
+    "title": "Світильник A1",
+    "price": 350,
+    "img": "../../data/dataImg/cornice1.webp",
+    "brand": "NMC",
+    "desc": "Класичний карниз для високих стель."
+  },
+  {
+    "id": 9,
+    "category": "scenery",
+    "title": "Декоративна панель A105",
+    "price": 380,
+    "img": "../../data/dataImg/cornice1.webp",
+    "brand": "ORAC",
+    "desc": "Класичний карниз для високих стель."
+  },
+  {
+    "id": 10,
+    "category": "tool",
+    "title": "Клей CT117",
+    "price": 380,
+    "img": "../../data/dataImg/cornice1.webp",
+    "brand": "None",
+    "desc": "Класичний карниз для високих стель."
   }
 ]

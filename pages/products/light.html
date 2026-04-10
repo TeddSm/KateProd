@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
@@ -17,7 +17,60 @@
       <div class="container">
         <button id="back-btn" class="back-btn">← Назад</button>
         <input type="text" id="search-input" placeholder="Пошук за назвою..." />
-       <button class="back-btn" id="search-btn">Пошук</button>
+        <button class="back-btn" id="search-btn">Пошук</button>
+        <button class="back-btn" id="filter-btn">Фільтри</button>
+        <div class="filter-container" id="filterContainer">
+          <div class="filter-menu-container">
+            <h3 class="filter-title">Виробник</h3>
+            <label class="filter-checkbox">
+              <div class="filter-checkbox-container">
+                <input
+                  type="checkbox"
+                  class="checkbox-input"
+                  id="checkboxInputNmc"
+                  value="NMC"
+                />
+                <span class="checkbox-text">NMC</span>
+              </div>
+              <div class="filter-checkbox-container">
+                <input
+                  type="checkbox"
+                  class="checkbox-input"
+                  id="checkboxInputOrac"
+                  value="ORAC"
+                />
+                <span class="checkbox-text">ORAC</span>
+              </div>
+              <div class="filter-checkbox-container">
+                <input
+                  type="checkbox"
+                  class="checkbox-input"
+                  id="checkboxInputNmc"
+                  value="None"
+                />
+                <span class="checkbox-text">NONE</span>
+              </div>
+            </label>
+          </div>
+          <div class="sort-container">
+            <h3 class="filter-title">Ціна</h3>
+            <select id="sortPrice" class="sort-select">
+              <option value="default">Сортування (за замовчуванням)</option>
+              <option value="asc">Від дешевих до дорогих</option>
+              <option value="desc">Від дорогих до дешевих</option>
+            </select>
+          </div>
+          <button class="filter-go-btn back-btn" id="filterGoBtn">
+            Фільтрувати
+          </button>
+          <button class="filter-close-btn" id="closeFilterBtn">
+            <img
+              src="../../images/icons/close.png"
+              class="filter-close-icon"
+              alt="Закрити фільтри"
+            />
+          </button>
+        </div>
         <h1 class="page-title">СВІТЛОВІ РІШЕННЯ</h1>
         <ul id="product-list" class="product-list"></ul>
       </div>
