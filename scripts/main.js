@@ -37,7 +37,7 @@ export async function getFilteredProducts() {
 }
 
 export function renderProducts(productsArray) {
-  const listContainer = document.getElementById("product-list");
+  const listContainer = document.getElementById("productList");
   if (!listContainer) return;
 
   listContainer.innerHTML = "";
@@ -51,17 +51,28 @@ export function renderProducts(productsArray) {
     return;
   }
 
+  const brandNames = {
+    orac: "OracDecor",
+    noel: "Noel & Marquet",
+  };
+
   productsArray.forEach((product) => {
+    const displayBrand =
+      brandNames[product.brand.toLowerCase()] || product.brand;
+
     const cardHTML = `
             <li class="product-item">
                 <article class="product-card">
+                    <a href="product.html?id=${product.id}">
                     <img src="${product.img}" alt="${product.title}" class="product-card-img">
                     <div class="product-card-body">
                         <h3 class="product-card-title">${product.title}</h3>
-                        <p class="product-card-text">${product.desc}</p>
-                        <p class="product-card-price">Ціна: <span>${product.price}</span> грн/м.п.</p>
-                        <a href="product.html?id=${product.id}" class="product-card-btn">Детальніше</a>
+                        <p class="product-card-brand">${displayBrand}</p>
+                        <p class="product-card-material">${product.materialDisplay}®</p>
+                        <p class="product-card-size">${product.height}x${product.width}hx${product.length}</p>
+                        <p class="product-card-price">Ціна: <span>${product.price}</span> грн</p>
                     </div>
+                    </a>
                 </article>
             </li>
         `;
