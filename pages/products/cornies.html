@@ -8,9 +8,132 @@
     <title>Decor</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <h1>HEADER</h1>
+        <nav class="nav">
+          <ul class="nav-list-left nav-list">
+            <li class="nav-list-item-submenu">
+              <a href="../../pages/products/products.html" class="nav-list-item"
+                >ПРОДУКЦІЯ</a
+              >
+              <div class="mega-menu">
+                <ul class="mega-menu-list">
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/cornies.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-cornice.jpg"
+                      >Карнизи</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="./pages/products/moldings.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-mouldings.jpg"
+                      >Молдинги</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/skirting.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-skirting.jpg"
+                      >Плінтуса</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/wallpanels.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-3d-wall.jpg"
+                      >Стінові 3D панелі</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/light.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-lighting.jpg"
+                      >Світлові рішення</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/scenery.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-elements.jpg"
+                      >Декоративні елементи</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/glues-tools.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-glue.png"
+                      >Клеї та інструмент</a
+                    >
+                  </li>
+                </ul>
+                <div class="mega-menu-picture"></div>
+              </div>
+            </li>
+            <li>
+              <a href="../../pages/lookbook.html" class="nav-list-item"
+                >НАТХНЕННЯ</a
+              >
+            </li>
+          </ul>
+          <a href="../../index.html" class="logo-container">
+            <img src="../../images/logo/ld-logo-black.png" class="ld-logo" />
+          </a>
+          <ul class="nav-list-right nav-list">
+            <li><a href="index.html" class="nav-list-item">ЗАВАНТАЖЕННЯ</a></li>
+            <li><a href="#contacts" class="nav-list-item">КОНТАКТИ</a></li>
+            <li>
+              <a href="../../pages/products/products.html" class="nav-list-item"
+                ><img src="../../images/icons/search.png" class="search-icon"
+              /></a>
+            </li>
+          </ul>
+          <button class="menu-open-btn" id="menu-btn">
+            <img
+              src="../../images/icons/menu.png"
+              alt="Меню"
+              class="menu-open-icon"
+            />
+          </button>
+        </nav>
+        <section class="menu-mobile" id="menuMobile">
+          <div class="container menu-container">
+            <button class="menu-close-btn" id="close-btn">
+              <img
+                src="../../images/icons/close.png"
+                class="menu-close-icon"
+                alt="Закрити"
+              />
+            </button>
+            <h2 class="menu-title">Меню</h2>
+            <nav class="menu-nav">
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <a href="../../pages/products/products.html" class="menu-link"
+                    >Продукція</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="./.html" class="menu-link">Натхнення</a>
+                </li>
+                <li class="menu-item">
+                  <a href="./.html" class="menu-link">Завантаження</a>
+                </li>
+                <li class="menu-item">
+                  <a href="./.html" class="menu-link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
       </div>
     </header>
     <main>
@@ -19,7 +142,6 @@
           <a href="../../index.html">Головна</a>
           /
           <a href="../products/cornies.html">Карнизи</a>
-          <button id="back-btn" class="back-btn">← Назад</button>
         </div>
       </section>
       <section class="hero">
@@ -214,9 +336,103 @@
         </section>
       </div>
     </main>
-    <footer>
-      <div class="container">
-        <h1>FOOTER</h1>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-logo-container">
+          <a href="../../index.html"
+            ><img src="../../images/logo/ld-logo-white.png" class="footer-logo"
+          /></a>
+        </div>
+        <div class="footer-clients-container">
+          <p class="footer-clients-title footer-title">Клієнтам</p>
+          <ul class="footer-clients-list">
+            <li><a href="" class="footer-clients-link">FAQ</a></li>
+            <li><a href="" class="footer-clients-link">Професіоналам</a></li>
+            <li>
+              <a href="" class="footer-clients-link">Інформація про продукт</a>
+            </li>
+            <li><a href="" class="footer-clients-link">Завантаження</a></li>
+            <li>
+              <a href="" class="footer-clients-link">Оплата і доставка</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contacts-container">
+          <p class="footer-contacts-title footer-title">Контакти</p>
+          <div class="footer-tel-container">
+            <p class="footer-tel-title">Телефон :</p>
+            <ul class="footer-tel-list">
+              <li class="footer-tel-item">
+                <a
+                  href="tel:+380677361201"
+                  target="_blank"
+                  class="footer-tel-link"
+                  >+38(067)736-12-01</a
+                ><a href="https://t.me/+380677361201" target="_blank"
+                  ><img
+                    src="../../images/icons/telegram.png"
+                    class="footer-icon"
+                /></a>
+              </li>
+              <li class="footer-tel-item">
+                <a
+                  href="tel:+380503551001"
+                  target="_blank"
+                  class="footer-tel-link"
+                  >+38(050)355-10-01</a
+                ><a href="https://wa.me/380503551001" target="_blank"
+                  ><img
+                    src="../../images/icons/whatsapp.png"
+                    class="footer-icon"
+                /></a>
+              </li>
+              <li class="footer-tel-item">
+                <a
+                  href="tel:+380937241021"
+                  target="_blank"
+                  class="footer-tel-link"
+                  >+38(093)724-10-21</a
+                ><a href="viber://chat?number=%2B380937241021" target="_blank"
+                  ><img src="../../images/icons/viber.png" class="footer-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social-container">
+            <ul class="footer-social-list">
+              <li>
+                <a
+                  href="https://www.instagram.com/lineadecor.ua?utm_source=qr&igsh=MWo0cGNwMmZjbGdjbw%3D%3D"
+                  target="_blank"
+                  ><img
+                    src="../../images/icons/instagram.png"
+                    class="footer-social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><img
+                    src="../../images/icons/facebook.png"
+                    class="footer-social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><img
+                    src="../../images/icons/pinterest.png"
+                    class="footer-social-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-about-container">
+          <p class="footer-about-title footer-title">Режим роботи</p>
+          <ul class="footer-about-list">
+            <li><p class="footer-about-text">Пн-Пт: 9.00-18.00</p></li>
+            <li><p class="footer-about-text">Сб-Нд: вихідний</p></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
