@@ -1,5 +1,5 @@
 export async function getAllProducts() {
-  const response = await fetch("../data/data.json");
+  const response = await fetch("../../data/data.json");
   const products = await response.json();
 
   return products;
@@ -64,7 +64,7 @@ export function renderProducts(productsArray) {
             <li class="product-item">
                 <article class="product-card">
                     <a href="product.html?id=${product.id}">
-                    <img src="${product.img}" alt="${product.title}" class="product-card-img">
+                    <img src="${product.img}" alt="${product.title}" class="product-card-img" loading="lazy">
                     <div class="product-card-body">
                         <h3 class="product-card-title">${product.title}</h3>
                         <p class="product-card-brand">${displayBrand}</p>

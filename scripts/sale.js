@@ -1,9 +1,9 @@
 import { renderProducts, getAllProducts } from "./main.js";
 
-async function newArrivals() {
+async function sale() {
   const products = await getAllProducts();
-  const filteredProducts = products.filter((item) => item.newArrivals === true);
+  const filteredProducts = products.filter((item) => item.sale === true);
   renderProducts(filteredProducts);
 }
 
-newArrivals();
+sale();

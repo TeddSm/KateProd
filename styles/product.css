@@ -1,5 +1,10 @@
 .hero {
   padding-top: 0px;
+  margin-top: 8px;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .main-container {
@@ -121,8 +126,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
+}
+
+@media (max-width: 1401px) {
+ .product-list {
+  justify-content: space-evenly;
+}
+
 }
 
 .product-item {
@@ -162,4 +174,30 @@
 
 .product-card-price {
   margin-bottom: 15px;
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.toast {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(20px); }
+    15% { opacity: 1; transform: translateY(0); }
+    85% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-20px); }
 }

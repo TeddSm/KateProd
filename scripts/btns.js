@@ -1,16 +1,5 @@
 import { getFilteredProducts, renderProducts } from "./main.js";
 
-const backBtn = document.getElementById("back-btn");
-if (backBtn) {
-  backBtn.addEventListener("click", () => {
-    if (window.history.length > 1) {
-      window.history.back();
-    } else {
-      window.location.href = "../../index.html";
-    }
-  });
-}
-
 const searchBtn = document.querySelector("#search-btn");
 const searchInput = document.querySelector("#search-input");
 if (searchInput && searchBtn) {
@@ -122,7 +111,12 @@ async function filterByBrand() {
 
   const sortType = sortSelect ? sortSelect.value : "default";
   products = sortProducts(products, sortType);
-  renderProducts(products);
+  if (products.length > 0) {
+    showToast(`Знайдено товарів: ${products.length}`);
+      renderProducts(products);
+} else {
+    showToast("На жаль, за вашим запитом нічого не знайдено");
+}
 }
 
 const menuLinks = document.querySelectorAll(".mega-menu-link");
@@ -191,3 +185,17 @@ initDoubleSlider(
   "val-width-max",
   "track-width"
 );
+
+export function showToast(message) {
+    const container = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    
+    toast.className = 'toast';
+    toast.textContent = message;
+    
+    container.appendChild(toast);
+    
+    setTimeout(() => {
+        toast.remove();
+    }, 3000);
+}
