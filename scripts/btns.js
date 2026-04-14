@@ -75,8 +75,8 @@ async function filterByBrand() {
 
   let products = await getFilteredProducts();
 
-  if (window.location.pathname.includes('sale.html')) {
-    products = products.filter(p => p.sale === true);
+  if (window.location.pathname.includes("sale.html")) {
+    products = products.filter((p) => p.sale === true);
   }
 
   products = products.filter((p) => {
@@ -117,10 +117,10 @@ async function filterByBrand() {
   products = sortProducts(products, sortType);
   if (products.length > 0) {
     showToast(`Знайдено товарів: ${products.length}`);
-      renderProducts(products);
-} else {
+    renderProducts(products);
+  } else {
     showToast("На жаль, за вашим запитом нічого не знайдено");
-}
+  }
 }
 
 const menuLinks = document.querySelectorAll(".mega-menu-link");
@@ -143,7 +143,7 @@ function initDoubleSlider(minId, maxId, minTextId, maxTextId, trackId) {
   const maxText = document.getElementById(maxTextId);
   const track = document.getElementById(trackId);
 
-  const colorActive = "#e8e0d5";
+  const colorActive = "#000000";
   const colorStatic = "#ddd";
 
   function update() {
@@ -191,22 +191,22 @@ initDoubleSlider(
 );
 
 export function showToast(message) {
-    const container = document.getElementById('toast-container');
-    const toast = document.createElement('div');
-    
-    toast.className = 'toast';
-    toast.textContent = message;
-    
-    container.appendChild(toast);
-    
-    setTimeout(() => {
-        toast.remove();
-    }, 3000);
+  const container = document.getElementById("toast-container");
+  const toast = document.createElement("div");
+
+  toast.className = "toast";
+  toast.textContent = message;
+
+  container.appendChild(toast);
+
+  setTimeout(() => {
+    toast.remove();
+  }, 3000);
 }
 
-document.querySelectorAll('.filter-list-title').forEach(title => {
-    title.addEventListener('click', () => {
-        const parent = title.parentElement;
-        parent.classList.toggle('active');
-    });
+document.querySelectorAll(".filter-list-title").forEach((title) => {
+  title.addEventListener("click", () => {
+    const parent = title.parentElement;
+    parent.classList.toggle("active");
+  });
 });

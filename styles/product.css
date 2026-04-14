@@ -44,12 +44,13 @@
 }
 
 .filter-content {
-    display: none; 
-    padding: 10px 0;
+  display: none;
+  padding: 10px 0 20px 0;
+  border-bottom: 1px solid #000000;
 }
 
 .filter-section.active .filter-content {
-    display: block;
+  display: block;
 }
 
 .filter-section.active .filter-list-title {
@@ -57,28 +58,28 @@
 }
 
 .filter-list-title {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
 }
 
 .arrow {
-    width: 12px;
-    height: auto;
-    display: inline-block; 
-    transform: rotate(0deg); 
-    transition: transform 0.3s ease-in-out; 
-    backface-visibility: hidden;
+  width: 12px;
+  height: auto;
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+  backface-visibility: hidden;
 }
 
 .filter-section.active .arrow {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .sort-select {
-  background-color: #e8e0d5;
+  background-color: white;
   padding: 10px;
   border: 1px solid black;
   border-radius: 15px;
@@ -110,7 +111,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #e8e0d5;
+  background: white;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   position: relative;
@@ -122,7 +123,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #e8e0d5;
+  background: white;
   cursor: pointer;
 }
 
@@ -150,6 +151,24 @@
 .filter-go-btn {
   margin-top: 8px;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .hero-tex-pages {
+    margin-bottom: 0;
+  }
+
+  .filter-container {
+    width: 100%;
+  }
+
+  .filter-title {
+    margin: 0;
+  }
+
+  .filter-section {
+    margin: 0;
+  }
 }
 
 .products-section {
@@ -223,27 +242,38 @@
 }
 
 .toast-container {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
 }
 
 .toast {
-    background-color: #333;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    margin-top: 10px;
-    font-size: 18px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    animation: fadeInOut 3s forwards;
+  background-color: black;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeInOut 3s forwards;
 }
 
 @keyframes fadeInOut {
-    0% { opacity: 0; transform: translateY(20px); }
-    15% { opacity: 1; transform: translateY(0); }
-    85% { opacity: 1; }
-    100% { opacity: 0; transform: translateY(-20px); }
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
 }
