@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
 body {
   font-family: "Candara", sans-serif;
   margin: 0;

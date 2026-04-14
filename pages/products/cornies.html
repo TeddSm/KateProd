@@ -170,13 +170,33 @@
             <h2 class="filter-title">ФІЛЬТР</h2>
             <div class="filter-sort-container">
               <label for="sortPrice"
-                ><h3 class="filter-list-title">Сортувати за ціною:</h3></label
+                ><div class="filter-section">
+                  <h3 class="filter-list-title">Сортувати за ціною: <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h3>
+                </label
               >
-              <select id="sortPrice" class="sort-select">
-                <option value="default">За замовчуванням</option>
-                <option value="asc">Від дешевих до дорогих</option>
-                <option value="desc">Від дорогих до дешевих</option>
-              </select>
+              <div class="filter-content">
+                <select id="sortPrice" class="sort-select">
+                  <option value="default">За замовчуванням</option>
+                  <option value="asc">Від дешевих до дорогих</option>
+                  <option value="desc">Від дорогих до дешевих</option>
+                </select>
+                </div>
+              </div>
             </div>
             <div class="filter-section">
               <h3 class="filter-list-title">
