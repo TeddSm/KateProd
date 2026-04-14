@@ -43,6 +43,40 @@
   padding: 0;
 }
 
+.filter-content {
+    display: none; 
+    padding: 10px 0;
+}
+
+.filter-section.active .filter-content {
+    display: block;
+}
+
+.filter-section.active .filter-list-title {
+  border-bottom: 1px solid #000000;
+}
+
+.filter-list-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.arrow {
+    width: 12px;
+    height: auto;
+    display: inline-block; 
+    transform: rotate(0deg); 
+    transition: transform 0.3s ease-in-out; 
+    backface-visibility: hidden;
+}
+
+.filter-section.active .arrow {
+    transform: rotate(180deg);
+}
+
 .sort-select {
   background-color: #e8e0d5;
   padding: 10px;

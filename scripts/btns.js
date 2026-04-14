@@ -203,3 +203,10 @@ export function showToast(message) {
         toast.remove();
     }, 3000);
 }
+
+document.querySelectorAll('.filter-list-title').forEach(title => {
+    title.addEventListener('click', () => {
+        const parent = title.parentElement;
+        parent.classList.toggle('active');
+    });
+});
