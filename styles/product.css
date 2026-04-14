@@ -16,6 +16,14 @@
   min-width: 170px;
 }
 
+.filter-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px; /* Обов'язково! */
+  align-self: flex-start; /* Обов'язково для Flexbox, щоб контейнер не розтягувався на всю висоту контенту */
+  z-index: 10;
+}
+
 @media (max-width: 768px) {
   .main-container {
     flex-direction: column;
@@ -27,6 +35,31 @@
 
 .filter-title {
   font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .filter-title {
+    width: 200px;
+  }
+}
+
+.filter-menu-container .filter-main-content {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.filter-menu-container.active .filter-main-content {
+  display: block;
+}
+
+.filter-menu-container.active .filter-title .arrow {
+  transform: rotate(180deg);
 }
 
 .filter-list-title {
@@ -35,6 +68,8 @@
   border-bottom: 2px solid black;
   margin-bottom: 8px;
   font-size: 20px;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .filter-list-subtitle {

@@ -210,3 +210,12 @@ document.querySelectorAll(".filter-list-title").forEach((title) => {
     parent.classList.toggle("active");
   });
 });
+
+const mainFilterToggle = document.getElementById("mainFilterToggle");
+const filterContainer = document.getElementById("filterContainer");
+
+if (mainFilterToggle && filterContainer) {
+  mainFilterToggle.addEventListener("click", () => {
+    filterContainer.classList.toggle("active");
+  });
+}

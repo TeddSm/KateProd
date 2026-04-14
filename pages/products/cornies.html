@@ -167,11 +167,27 @@
             class="container filter-container filter-menu-container"
             id="filterContainer"
           >
-            <h2 class="filter-title">ФІЛЬТР</h2>
+            <h2 id="mainFilterToggle" class="filter-title">ФІЛЬТР <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h2>
+                <div class="filter-main-content">
             <div class="filter-sort-container">
               <label for="sortPrice"
                 ><div class="filter-section">
-                  <h3 class="filter-list-title">Сортувати за ціною: <svg
+                  <h3 class="filter-list-title">Сортувати за ціною <svg
                   class="arrow"
                   width="14"
                   height="8"
@@ -431,7 +447,7 @@
             <button class="filter-go-btn back-btn" id="filterGoBtn">
               Фільтрувати
             </button>
-          </div>
+            </div>
         </section>
         <section class="products-section">
           <div class="container">
