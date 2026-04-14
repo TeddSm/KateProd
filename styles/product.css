@@ -146,6 +146,25 @@
   margin: 0;
 }
 
+.img-container {
+  position: relative;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 24px;
+}
+
+.sale-icon {
+  position: absolute;
+  top: -11px;
+  right: -30px;
+  width: 60px;
+}
+
 .product-card-img {
   width: 350px;
   height: 350px;

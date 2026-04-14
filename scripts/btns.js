@@ -75,6 +75,10 @@ async function filterByBrand() {
 
   let products = await getFilteredProducts();
 
+  if (window.location.pathname.includes('sale.html')) {
+    products = products.filter(p => p.sale === true);
+  }
+
   products = products.filter((p) => {
     const productH = parseFloat(p.height) || 0;
     const productW = parseFloat(p.width) || 0;

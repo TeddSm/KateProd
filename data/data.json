@@ -13,6 +13,7 @@
     "height": 57,
     "width": 65,
     "sale": true,
+    "newPrice": 1100,
     "length": 2000
   },
   {
@@ -20,6 +21,8 @@
     "category": "cornice",
     "title": "C201",
     "price": 1854,
+    "newPrice": 1565,
+    "sale": true,
     "img": "../../data/dataImg/c201/c201.webp",
     "brand": "ORAC",
     "material": "purotouch",
