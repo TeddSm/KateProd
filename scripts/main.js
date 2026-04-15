@@ -66,7 +66,7 @@ export function renderProducts(productsArray) {
     let saleBadgeHTML = "";
 
     if (product.sale === true) {
-        priceHTML = `Ціна: <span class="old-price">${product.price}</span> <span class="new-price">${product.newPrice}</span> грн`;
+        priceHTML = `Ціна: <span class="old-price">${product.oldPrice}</span> <span class="new-price">${product.price}</span> грн`;
         saleBadgeHTML = `<img src="../../images/icons/sale.png" class="sale-icon">`;
     }
 

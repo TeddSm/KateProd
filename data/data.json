@@ -3,7 +3,7 @@
     "id": 1,
     "category": "cornice",
     "title": "C200",
-    "price": 1278,
+    "price": 1000,
     "img": "../../data/dataImg/c200/c200.webp",
     "brand": "ORAC",
     "material": "purotouch",
@@ -13,7 +13,7 @@
     "height": 57,
     "width": 65,
     "sale": true,
-    "newPrice": 1100,
+    "oldPrice": 1278,
     "length": 2000
   },
   {
@@ -21,8 +21,6 @@
     "category": "cornice",
     "title": "C201",
     "price": 1854,
-    "newPrice": 1565,
-    "sale": true,
     "img": "../../data/dataImg/c201/c201.webp",
     "brand": "ORAC",
     "material": "purotouch",
