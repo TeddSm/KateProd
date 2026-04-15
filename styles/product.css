@@ -41,6 +41,8 @@
   cursor: pointer;
   user-select: none;
   width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
 }
 
 @media (min-width: 769px) {
