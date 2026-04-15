@@ -8,7 +8,10 @@
     "brand": "ORAC",
     "material": "purotouch",
     "materialDisplay": "Purotouch",
-    "usage": ["curtains", "wall-ceiling"],
+    "usage": [
+      "curtains",
+      "wall-ceiling"
+    ],
     "desc": "Класичний карниз для високих стель.",
     "height": 57,
     "width": 65,
@@ -25,7 +28,10 @@
     "brand": "ORAC",
     "material": "purotouch",
     "materialDisplay": "Purotouch",
-    "usage": ["curtains", "wall-ceiling"],
+    "usage": [
+      "curtains",
+      "wall-ceiling"
+    ],
     "desc": "Класичний карниз для високих стель.",
     "height": 48,
     "width": 116,
@@ -61,7 +67,7 @@
     "width": 255,
     "length": 2000
   },
-   {
+  {
     "id": 5,
     "category": "cornice",
     "title": "AD22",
@@ -225,5 +231,1126 @@
     "img": "../../data/dataImg/cornice1.webp",
     "brand": "None",
     "desc": "Класичний карниз для високих стель."
+  },
+  {
+    "id": 113001,
+    "category": "cornice",
+    "title": "CB511",
+    "price": 0,
+    "img": "../../data/dataimg/cb511/cb511.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 67,
+    "width": 67,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113002,
+    "category": "cornice",
+    "title": "CB512",
+    "price": 0,
+    "img": "../../data/dataimg/cb512/cb512.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 90,
+    "width": 90,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113003,
+    "category": "cornice",
+    "title": "CB520",
+    "price": 0,
+    "img": "../../data/dataimg/cb520/cb520.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 35,
+    "width": 35,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113004,
+    "category": "cornice",
+    "title": "CB521",
+    "price": 0,
+    "img": "../../data/dataimg/cb521/cb521.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113005,
+    "category": "cornice",
+    "title": "CB522",
+    "price": 0,
+    "img": "../../data/dataimg/cb522/cb522.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 67,
+    "width": 67,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113006,
+    "category": "cornice",
+    "title": "CB523",
+    "price": 0,
+    "img": "../../data/dataimg/cb523/cb523.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 44,
+    "width": 59,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113007,
+    "category": "cornice",
+    "title": "CB524",
+    "price": 0,
+    "img": "../../data/dataimg/cb524/cb524.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 90,
+    "width": 90,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113008,
+    "category": "cornice",
+    "title": "CB525",
+    "price": 0,
+    "img": "../../data/dataimg/cb525/cb525.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 65,
+    "width": 60,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 113009,
+    "category": "cornice",
+    "title": "CB530",
+    "price": 0,
+    "img": "../../data/dataimg/cb530/cb530.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 0,
+    "width": 0,
+    "sale": true,
+    "oldPrice": 0,
+    "length": 2000
+  },
+  {
+    "id": 113010,
+    "category": "cornice",
+    "title": "CB531",
+    "price": 0,
+    "img": "../../data/dataimg/cb531/cb531.webp",
+    "brand": "ORAC",
+    "material": "durofoam",
+    "materialDisplay": "Durofoam",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 0,
+    "width": 0,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112001,
+    "category": "cornice",
+    "title": "CX100",
+    "price": 0,
+    "img": "../../data/dataimg/cx100/cx100.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 69,
+    "width": 71,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112002,
+    "category": "cornice",
+    "title": "CX106",
+    "price": 0,
+    "img": "../../data/dataimg/cx106/cx106.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 118,
+    "width": 117,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112003,
+    "category": "cornice",
+    "title": "CX107",
+    "price": 0,
+    "img": "../../data/dataimg/cx107/cx107.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 118,
+    "width": 117,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112007,
+    "category": "cornice",
+    "title": "CX108",
+    "price": 0,
+    "img": "../../data/dataimg/cx108/cx108.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 54,
+    "width": 55,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112004,
+    "category": "cornice",
+    "title": "CX109",
+    "price": 0,
+    "img": "../../data/dataimg/cx109/cx109.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 44,
+    "width": 44,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112005,
+    "category": "cornice",
+    "title": "CX110",
+    "price": 0,
+    "img": "../../data/dataimg/cx110/cx110.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 45,
+    "width": 41,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112006,
+    "category": "cornice",
+    "title": "CX111",
+    "price": 0,
+    "img": "../../data/dataimg/cx111/cx111.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 26,
+    "width": 15,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112007,
+    "category": "cornice",
+    "title": "CX112",
+    "price": 0,
+    "img": "../../data/dataimg/cx112/cx112.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 54,
+    "width": 38,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112008,
+    "category": "cornice",
+    "title": "CX115",
+    "price": 0,
+    "img": "../../data/dataimg/cx115/cx115.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 30,
+    "width": 29,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112009,
+    "category": "cornice",
+    "title": "CX123",
+    "price": 0,
+    "img": "../../data/dataimg/cx123/cx123.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 80,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112010,
+    "category": "cornice",
+    "title": "CX124",
+    "price": 0,
+    "img": "../../data/dataimg/cx124/cx124.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 49,
+    "width": 49,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112011,
+    "category": "cornice",
+    "title": "CX126",
+    "price": 0,
+    "img": "../../data/dataimg/cx126/cx126.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 87,
+    "width": 87,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112012,
+    "category": "cornice",
+    "title": "CX127",
+    "price": 0,
+    "img": "../../data/dataimg/cx127/cx127.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 94,
+    "width": 94,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112013,
+    "category": "cornice",
+    "title": "CX129",
+    "price": 0,
+    "img": "../../data/dataimg/cx129/cx129.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 94,
+    "width": 94,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112014,
+    "category": "cornice",
+    "title": "CX132",
+    "price": 0,
+    "img": "../../data/dataimg/cx132/cx132.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 20,
+    "width": 20,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112015,
+    "category": "cornice",
+    "title": "CX133",
+    "price": 0,
+    "img": "../../data/dataimg/cx133/cx133.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 20,
+    "width": 20,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112016,
+    "category": "cornice",
+    "title": "CX134",
+    "price": 0,
+    "img": "../../data/dataimg/cx134/cx134.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 30,
+    "width": 30,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112017,
+    "category": "cornice",
+    "title": "CX141",
+    "price": 0,
+    "img": "../../data/dataimg/cx141/cx141.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 59,
+    "width": 31,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112018,
+    "category": "cornice",
+    "title": "CX148",
+    "price": 0,
+    "img": "../../data/dataimg/cx148/cx148.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 43,
+    "width": 29,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112019,
+    "category": "cornice",
+    "title": "CX160",
+    "price": 0,
+    "img": "../../data/dataimg/cx160/cx160.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 39,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112020,
+    "category": "cornice",
+    "title": "CX161",
+    "price": 0,
+    "img": "../../data/dataimg/cx161/cx161.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 69,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112021,
+    "category": "cornice",
+    "title": "CX176",
+    "price": 0,
+    "img": "../../data/dataimg/cx176/cx176.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 40,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112022,
+    "category": "cornice",
+    "title": "CX177",
+    "price": 0,
+    "img": "../../data/dataimg/cx177/cx177.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 70,
+    "width": 60,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112023,
+    "category": "cornice",
+    "title": "CX188",
+    "price": 0,
+    "img": "../../data/dataimg/cx188/cx188.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 33,
+    "width": 30,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112024,
+    "category": "cornice",
+    "title": "CX189",
+    "price": 0,
+    "img": "../../data/dataimg/cx189/cx189.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 26,
+    "width": 27,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112025,
+    "category": "cornice",
+    "title": "CX190",
+    "price": 0,
+    "img": "../../data/dataimg/cx190/cx190.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 20,
+    "width": 30,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112026,
+    "category": "cornice",
+    "title": "CX192",
+    "price": 0,
+    "img": "../../data/dataimg/cx192/cx192.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 120,
+    "width": 60,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112027,
+    "category": "cornice",
+    "title": "CX196",
+    "price": 0,
+    "img": "../../data/dataimg/cx196/cx196.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 117,
+    "width": 113,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112028,
+    "category": "cornice",
+    "title": "CX197",
+    "price": 0,
+    "img": "../../data/dataimg/cx197/cx197.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 93,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112029,
+    "category": "cornice",
+    "title": "CX197",
+    "price": 0,
+    "img": "../../data/dataimg/cx197/cx197.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 80,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112030,
+    "category": "cornice",
+    "title": "CX203",
+    "price": 0,
+    "img": "../../data/dataimg/cx203/cx203.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 145,
+    "width": 149,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112031,
+    "category": "cornice",
+    "title": "CX215",
+    "price": 0,
+    "img": "../../data/dataimg/cx215/cx215.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 95,
+    "width": 45,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112032,
+    "category": "cornice",
+    "title": "CX216",
+    "price": 0,
+    "img": "../../data/dataimg/cx216/cx216.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 125,
+    "width": 45,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112033,
+    "category": "cornice",
+    "title": "CX217",
+    "price": 0,
+    "img": "../../data/dataimg/cx217/cx217.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 155,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112034,
+    "category": "cornice",
+    "title": "PX164",
+    "price": 0,
+    "img": "../../data/dataimg/px164/px164.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 30,
+    "width": 24,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112035,
+    "category": "cornice",
+    "title": "PX198",
+    "price": 0,
+    "img": "../../data/dataimg/px198/px198.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 20,
+    "width": 83,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112036,
+    "category": "cornice",
+    "title": "SX157",
+    "price": 0,
+    "img": "../../data/dataimg/sx157/sx157.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 66,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112037,
+    "category": "cornice",
+    "title": "SX162",
+    "price": 0,
+    "img": "../../data/dataimg/sx162/sx162.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 10,
+    "width": 40,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112038,
+    "category": "cornice",
+    "title": "SX163",
+    "price": 0,
+    "img": "../../data/dataimg/sx163/sx163.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 101,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112039,
+    "category": "cornice",
+    "title": "SX168",
+    "price": 0,
+    "img": "../../data/dataimg/sx168/sx168.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 150,
+    "width": 13,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112040,
+    "category": "cornice",
+    "title": "SX180",
+    "price": 0,
+    "img": "../../data/dataimg/sx180/sx180.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 16,
+    "width": 120,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112041,
+    "category": "cornice",
+    "title": "SX181",
+    "price": 0,
+    "img": "../../data/dataimg/sx181/sx181.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 22,
+    "width": 200,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112042,
+    "category": "cornice",
+    "title": "SX182",
+    "price": 0,
+    "img": "../../data/dataimg/sx182/sx182.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112043,
+    "category": "cornice",
+    "title": "SX183",
+    "price": 0,
+    "img": "../../data/dataimg/sx183/sx183.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 75,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112044,
+    "category": "cornice",
+    "title": "SX184",
+    "price": 0,
+    "img": "../../data/dataimg/sx184/sx184.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 13,
+    "width": 110,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112045,
+    "category": "cornice",
+    "title": "SX187",
+    "price": 0,
+    "img": "../../data/dataimg/sx187/sx187.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 12,
+    "width": 75,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112046,
+    "category": "cornice",
+    "title": "SX194",
+    "price": 0,
+    "img": "../../data/dataimg/sx194/sx194.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 20,
+    "width": 10,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112047,
+    "category": "cornice",
+    "title": "SX207",
+    "price": 0,
+    "img": "../../data/dataimg/sx207/sx207.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 250,
+    "width": 13,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 112048,
+    "category": "cornice",
+    "title": "SX212",
+    "price": 0,
+    "img": "../../data/dataimg/sx212/sx212.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 170,
+    "width": 13,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
   }
 ]
