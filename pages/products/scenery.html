@@ -4,82 +4,558 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../styles/style.css" />
-    <link rel="stylesheet" href="../../styles/product.css" />
+    <link rel="stylesheet" href="../../styles/products.css" />
     <title>Decor</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <h1>HEADER</h1>
+        <nav class="nav">
+          <ul class="nav-list-left nav-list">
+            <li class="nav-list-item-submenu">
+              <a href="../../pages/products/products.html" class="nav-list-item"
+                >ПРОДУКЦІЯ</a
+              >
+              <div class="mega-menu">
+                <ul class="mega-menu-list">
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/cornies.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-cornice.jpg"
+                      >Карнизи</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/moldings.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-mouldings.jpg"
+                      >Молдинги</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/skirting.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-skirting.jpg"
+                      >Плінтуса</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/wallpanels.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-3d-wall.jpg"
+                      >Стінові 3D панелі</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/light.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-lighting.jpg"
+                      >Світлові рішення</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/scenery.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-elements.jpg"
+                      >Декоративні елементи</a
+                    >
+                  </li>
+                  <li class="mega-menu-item">
+                    <a
+                      href="../../pages/products/glues-tools.html"
+                      class="mega-menu-link"
+                      data-image="../../images/productions/pic-glue.png"
+                      >Клеї та інструмент</a
+                    >
+                  </li>
+                </ul>
+                <div class="mega-menu-picture"></div>
+              </div>
+            </li>
+            <li>
+              <a href="../../pages/lookbook.html" class="nav-list-item"
+                >НАТХНЕННЯ</a
+              >
+            </li>
+          </ul>
+          <a href="../../index.html" class="logo-container">
+            <img src="../../images/logo/ld-logo-black.png" class="ld-logo" />
+          </a>
+          <ul class="nav-list-right nav-list">
+            <li><a href="index.html" class="nav-list-item">ЗАВАНТАЖЕННЯ</a></li>
+            <li><a href="#contacts" class="nav-list-item">КОНТАКТИ</a></li>
+            <li>
+              <a href="../../pages/products/products.html" class="nav-list-item"
+                ><img src="../../images/icons/search.png" class="search-icon"
+              /></a>
+            </li>
+          </ul>
+          <button class="menu-open-btn" id="menu-btn">
+            <img
+              src="../../images/icons/menu.png"
+              alt="Меню"
+              class="menu-open-icon"
+            />
+          </button>
+        </nav>
+        <section class="menu-mobile" id="menuMobile">
+          <div class="container menu-container">
+            <button class="menu-close-btn" id="close-btn">
+              <img
+                src="../../images/icons/close.png"
+                class="menu-close-icon"
+                alt="Закрити"
+              />
+            </button>
+            <h2 class="menu-title">Меню</h2>
+            <nav class="menu-nav">
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <a href="../../pages/products/products.html" class="menu-link"
+                    >Продукція</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="./.html" class="menu-link">Натхнення</a>
+                </li>
+                <li class="menu-item">
+                  <a href="./.html" class="menu-link">Завантаження</a>
+                </li>
+                <li class="menu-item">
+                  <a href="./.html" class="menu-link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
       </div>
     </header>
     <main>
-      <div class="container">
-        <button id="back-btn" class="back-btn">← Назад</button>
-        <input type="text" id="search-input" placeholder="Пошук за назвою..." />
-        <button class="back-btn" id="search-btn">Пошук</button>
-        <button class="back-btn" id="filter-btn">Фільтри</button>
-        <div class="filter-container" id="filterContainer">
-          <div class="filter-menu-container">
-            <h3 class="filter-title">Виробник</h3>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <input
-                  type="checkbox"
-                  class="checkbox-input"
-                  id="checkboxInputNmc"
-                  value="NMC"
-                />
-                <span class="checkbox-text">NMC</span>
-              </div>
-              <div class="filter-checkbox-container">
-                <input
-                  type="checkbox"
-                  class="checkbox-input"
-                  id="checkboxInputOrac"
-                  value="ORAC"
-                />
-                <span class="checkbox-text">ORAC</span>
-              </div>
-              <div class="filter-checkbox-container">
-                <input
-                  type="checkbox"
-                  class="checkbox-input"
-                  id="checkboxInputNmc"
-                  value="None"
-                />
-                <span class="checkbox-text">NONE</span>
-              </div>
-            </label>
-          </div>
-          <div class="sort-container">
-            <h3 class="filter-title">Ціна</h3>
-            <select id="sortPrice" class="sort-select">
-              <option value="default">Сортування (за замовчуванням)</option>
-              <option value="asc">Від дешевих до дорогих</option>
-              <option value="desc">Від дорогих до дешевих</option>
-            </select>
-          </div>
-          <button class="filter-go-btn back-btn" id="filterGoBtn">
-            Фільтрувати
-          </button>
-          <button class="filter-close-btn" id="closeFilterBtn">
-            <img
-              src="../../images/icons/close.png"
-              class="filter-close-icon"
-              alt="Закрити фільтри"
-            />
-          </button>
+      <section class="page-map">
+        <div class="container page-map-container">
+          <a href="../../index.html">Головна</a>
+          /
+          <a href="../products/scenery.html">Декоративні елементи</a>
         </div>
-        <h1 class="page-title">ДЕКОРАТИВНІ ЕЛЕМЕНТИ</h1>
-        <ul id="product-list" class="product-list"></ul>
+      </section>
+      <section class="hero">
+        <div class="container">
+          <div class="picture-container">
+            <img src="../../images/pic-karniz.png" class="hero-img" />
+          </div>
+          <h1 class="hero-text-title">ДЕКОРАТИВНІ ЕЛЕМЕНТИ</h1>
+          <h2 class="hero-text-pages">
+            Елемент, який надає інтер'єру завершеності, елегантності та
+            глибини.<br />Він створює плавний перехід між стіною та стелею,
+            підкреслюючи архітектуру простору та формуючи стиль приміщення.<br />
+            Карнизи використовуються як у класичних, так і в сучасних інтер'єрах
+            - від мінімалізму до неокласики. <br />
+            Завдяки різноманіттю форм і розмірів, їх можна адаптувати під
+            будь-яке стильове рішення.
+          </h2>
+        </div>
+      </section>
+      <div class="container main-container">
+        <section class="filter-section">
+          <div
+            class="container filter-container filter-menu-container"
+            id="filterContainer"
+          >
+            <h2 id="mainFilterToggle" class="filter-title">ФІЛЬТР <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h2>
+                <div class="filter-main-content">
+            <div class="filter-sort-container">
+              <label for="sortPrice"
+                ><div class="filter-section">
+                  <h3 class="filter-list-title">Сортувати за ціною <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h3>
+                </label
+              >
+              <div class="filter-content">
+                <select id="sortPrice" class="sort-select">
+                  <option value="default">За замовчуванням</option>
+                  <option value="asc">Від дешевих до дорогих</option>
+                  <option value="desc">Від дорогих до дешевих</option>
+                </select>
+                </div>
+              </div>
+            </div>
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Виробник
+                <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">OracDecor</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-input checkbox"
+                      id="checkboxInputOrac"
+                      value="ORAC"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Noel&Marquet</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-input checkbox"
+                      id="checkboxInputNoel"
+                      value="NOEL"
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Розміри<svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <h4 class="filter-list-subtitle">Висота (cм)</h4>
+                <div class="range-slider-container">
+                  <div class="slider-track" id="track-height"></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="0"
+                    id="slider-height-min"
+                    class="range-input-slider"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="300"
+                    id="slider-height-max"
+                    class="range-input-slider"
+                  />
+                </div>
+                <div class="range-values">
+                  <span id="val-height-min">0</span> -
+                  <span id="val-height-max">300</span> cм
+                </div>
+
+                <h4 class="filter-list-subtitle">Ширина (cм)</h4>
+                <div class="range-slider-container">
+                  <div class="slider-track" id="track-width"></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="0"
+                    id="slider-width-min"
+                    class="range-input-slider"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="300"
+                    id="slider-width-max"
+                    class="range-input-slider"
+                  />
+                </div>
+                <div class="range-values">
+                  <span id="val-width-min">0</span> -
+                  <span id="val-width-max">300</span> cм
+                </div>
+              </div>
+            </div>
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Матеріал<svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Поліуретан</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-material checkbox"
+                      value="purotouch"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Дюрополімер</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-material checkbox"
+                      value="duropolymer"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Полістирол</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-material checkbox"
+                      value="durofoam"
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Призначення<svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Для штор</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="curtains"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Для освітлення</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="lighting"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Стіна-Стеля</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="wall-ceiling"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Гнучкий</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="flexible"
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
+            <button class="filter-go-btn back-btn" id="filterGoBtn">
+              Фільтрувати
+            </button>
+            </div>
+        </section>
+        <section class="products-section">
+          <div class="container">
+            <ul id="productList" class="product-list"></ul>
+          </div>
+        </section>
       </div>
     </main>
-    <footer>
-      <div class="container">
-        <h1>FOOTER</h1>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-logo-container">
+          <a href="../../index.html"
+            ><img src="../../images/logo/ld-logo-white.png" class="footer-logo"
+          /></a>
+        </div>
+        <div class="footer-clients-container">
+          <p class="footer-clients-title footer-title">Клієнтам</p>
+          <ul class="footer-clients-list">
+            <li><a href="" class="footer-clients-link">FAQ</a></li>
+            <li><a href="" class="footer-clients-link">Професіоналам</a></li>
+            <li>
+              <a href="" class="footer-clients-link">Інформація про продукт</a>
+            </li>
+            <li><a href="" class="footer-clients-link">Завантаження</a></li>
+            <li>
+              <a href="" class="footer-clients-link">Оплата і доставка</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contacts-container">
+          <p class="footer-contacts-title footer-title">Контакти</p>
+          <div class="footer-tel-container">
+            <p class="footer-tel-title">Телефон :</p>
+            <ul class="footer-tel-list">
+              <li class="footer-tel-item">
+                <a
+                  href="tel:+380677361201"
+                  target="_blank"
+                  class="footer-tel-link"
+                  >+38(067)736-12-01</a
+                ><a href="https://t.me/+380677361201" target="_blank"
+                  ><img
+                    src="../../images/icons/telegram.png"
+                    class="footer-icon"
+                /></a>
+              </li>
+              <li class="footer-tel-item">
+                <a
+                  href="tel:+380503551001"
+                  target="_blank"
+                  class="footer-tel-link"
+                  >+38(050)355-10-01</a
+                ><a href="https://wa.me/380503551001" target="_blank"
+                  ><img
+                    src="../../images/icons/whatsapp.png"
+                    class="footer-icon"
+                /></a>
+              </li>
+              <li class="footer-tel-item">
+                <a
+                  href="tel:+380937241021"
+                  target="_blank"
+                  class="footer-tel-link"
+                  >+38(093)724-10-21</a
+                ><a href="viber://chat?number=%2B380937241021" target="_blank"
+                  ><img src="../../images/icons/viber.png" class="footer-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social-container">
+            <ul class="footer-social-list">
+              <li>
+                <a
+                  href="https://www.instagram.com/lineadecor.ua?utm_source=qr&igsh=MWo0cGNwMmZjbGdjbw%3D%3D"
+                  target="_blank"
+                  ><img
+                    src="../../images/icons/instagram.png"
+                    class="footer-social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><img
+                    src="../../images/icons/facebook.png"
+                    class="footer-social-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><img
+                    src="../../images/icons/pinterest.png"
+                    class="footer-social-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-about-container">
+          <p class="footer-about-title footer-title">Режим роботи</p>
+          <ul class="footer-about-list">
+            <li><p class="footer-about-text">Пн-Пт: 9.00-18.00</p></li>
+            <li><p class="footer-about-text">Сб-Нд: вихідний</p></li>
+          </ul>
+        </div>
       </div>
     </footer>
+    <div id="toast-container" class="toast-container"></div>
   </body>
   <script type="module" src="../../scripts/main.js"></script>
   <script type="module" src="../../scripts/btns.js"></script>

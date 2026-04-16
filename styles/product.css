@@ -1,5 +1,6 @@
 .product-card {
     display: flex;
+    gap: 10px;
 }
 
 @media (max-width: 768px) {
@@ -10,6 +11,26 @@
 
 .product-card-img {
     max-width: 600px;
+}
+
+.product-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-card-title {
+    padding: 0;
+    margin: 0;
+}
+
+.product-card-price {
+    font-size: 26px;
+}
+
+.product-card-btn {
+    text-align: center;
+    width: 100px;
 }
 
 .slider-container {
@@ -38,12 +59,18 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.103);
   color: white;
   border: none;
+  border-radius: 15px;
   padding: 10px 15px;
   cursor: pointer;
   z-index: 10;
+  transition: all 0.5s ease;
+}
+
+.slider-btn:hover {
+  background: rgba(0, 0, 0, 0.438);
 }
 
 .prev { left: 10px; }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../styles/style.css" />
-    <link rel="stylesheet" href="../../styles/product.css" />
+    <link rel="stylesheet" href="../../styles/products.css" />
     <title>Decor</title>
   </head>
   <body>
@@ -28,7 +28,7 @@
                   </li>
                   <li class="mega-menu-item">
                     <a
-                      href="./pages/products/moldings.html"
+                      href="../../pages/products/moldings.html"
                       class="mega-menu-link"
                       data-image="../../images/productions/pic-mouldings.jpg"
                       >Молдинги</a
@@ -141,7 +141,7 @@
         <div class="container page-map-container">
           <a href="../../index.html">Головна</a>
           /
-          <a href="../products/sale.html">Розпродаж</a>
+          <a href="../products/cornies.html">Розпродаж</a>
         </div>
       </section>
       <section class="hero">
@@ -150,175 +150,304 @@
             <img src="../../images/pic-karniz.png" class="hero-img" />
           </div>
           <h1 class="hero-text-title">Розпродаж</h1>
+          <h2 class="hero-text-pages">
+            Елемент, який надає інтер'єру завершеності, елегантності та
+            глибини.<br />Він створює плавний перехід між стіною та стелею,
+            підкреслюючи архітектуру простору та формуючи стиль приміщення.<br />
+            Карнизи використовуються як у класичних, так і в сучасних інтер'єрах
+            - від мінімалізму до неокласики. <br />
+            Завдяки різноманіттю форм і розмірів, їх можна адаптувати під
+            будь-яке стильове рішення.
+          </h2>
         </div>
       </section>
-      <div class="main-container">
+      <div class="container main-container">
         <section class="filter-section">
           <div
             class="container filter-container filter-menu-container"
             id="filterContainer"
           >
-            <h2 class="filter-title">ФІЛЬТР</h2>
+            <h2 id="mainFilterToggle" class="filter-title">ФІЛЬТР <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h2>
+                <div class="filter-main-content">
             <div class="filter-sort-container">
               <label for="sortPrice"
-                ><h3 class="filter-list-title">Сортувати за ціною:</h3></label
+                ><div class="filter-section">
+                  <h3 class="filter-list-title">Сортувати за ціною <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h3>
+                </label
               >
-              <select id="sortPrice" class="sort-select">
-                <option value="default">За замовчуванням</option>
-                <option value="asc">Від дешевих до дорогих</option>
-                <option value="desc">Від дорогих до дешевих</option>
-              </select>
-            </div>
-            <h3 class="filter-list-title">Виробник</h3>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">OracDecor</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-input checkbox"
-                  id="checkboxInputOrac"
-                  value="ORAC"
-                />
+              <div class="filter-content">
+                <select id="sortPrice" class="sort-select">
+                  <option value="default">За замовчуванням</option>
+                  <option value="asc">Від дешевих до дорогих</option>
+                  <option value="desc">Від дорогих до дешевих</option>
+                </select>
+                </div>
               </div>
-            </label>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Noel&Marquet</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-input checkbox"
-                  id="checkboxInputNoel"
-                  value="NOEL"
-                />
+            </div>
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Виробник
+                <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">OracDecor</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-input checkbox"
+                      id="checkboxInputOrac"
+                      value="ORAC"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Noel&Marquet</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-input checkbox"
+                      id="checkboxInputNoel"
+                      value="NOEL"
+                    />
+                  </div>
+                </label>
               </div>
-            </label>
-            <h3 class="filter-list-title">Розміри</h3>
-            <h4 class="filter-list-subtitle">Висота (cм)</h4>
-            <div class="range-slider-container">
-              <div class="slider-track" id="track-height"></div>
-              <input
-                type="range"
-                min="0"
-                max="300"
-                value="0"
-                id="slider-height-min"
-                class="range-input-slider"
-              />
-              <input
-                type="range"
-                min="0"
-                max="300"
-                value="300"
-                id="slider-height-max"
-                class="range-input-slider"
-              />
             </div>
-            <div class="range-values">
-              <span id="val-height-min">0</span> -
-              <span id="val-height-max">300</span> cм
-            </div>
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Розміри<svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <h4 class="filter-list-subtitle">Висота (cм)</h4>
+                <div class="range-slider-container">
+                  <div class="slider-track" id="track-height"></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="0"
+                    id="slider-height-min"
+                    class="range-input-slider"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="300"
+                    id="slider-height-max"
+                    class="range-input-slider"
+                  />
+                </div>
+                <div class="range-values">
+                  <span id="val-height-min">0</span> -
+                  <span id="val-height-max">300</span> cм
+                </div>
 
-            <h4 class="filter-list-subtitle">Ширина (cм)</h4>
-            <div class="range-slider-container">
-              <div class="slider-track" id="track-width"></div>
-              <input
-                type="range"
-                min="0"
-                max="300"
-                value="0"
-                id="slider-width-min"
-                class="range-input-slider"
-              />
-              <input
-                type="range"
-                min="0"
-                max="300"
-                value="300"
-                id="slider-width-max"
-                class="range-input-slider"
-              />
+                <h4 class="filter-list-subtitle">Ширина (cм)</h4>
+                <div class="range-slider-container">
+                  <div class="slider-track" id="track-width"></div>
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="0"
+                    id="slider-width-min"
+                    class="range-input-slider"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="300"
+                    value="300"
+                    id="slider-width-max"
+                    class="range-input-slider"
+                  />
+                </div>
+                <div class="range-values">
+                  <span id="val-width-min">0</span> -
+                  <span id="val-width-max">300</span> cм
+                </div>
+              </div>
             </div>
-            <div class="range-values">
-              <span id="val-width-min">0</span> -
-              <span id="val-width-max">300</span> cм
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Матеріал<svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Поліуретан</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-material checkbox"
+                      value="purotouch"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Дюрополімер</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-material checkbox"
+                      value="duropolymer"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Полістирол</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-material checkbox"
+                      value="durofoam"
+                    />
+                  </div>
+                </label>
+              </div>
             </div>
-            <h3 class="filter-list-title">Матеріал</h3>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Поліуретан</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-material checkbox"
-                  value="purotouch"
-                />
+            <div class="filter-section">
+              <h3 class="filter-list-title">
+                Призначення<svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </h3>
+              <div class="filter-content">
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Для штор</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="curtains"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Для освітлення</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="lighting"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Стіна-Стеля</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="wall-ceiling"
+                    />
+                  </div>
+                </label>
+                <label class="filter-checkbox">
+                  <div class="filter-checkbox-container">
+                    <span class="checkbox-text">Гнучкий</span>
+                    <input
+                      type="checkbox"
+                      class="checkbox-usage checkbox"
+                      value="flexible"
+                    />
+                  </div>
+                </label>
               </div>
-            </label>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Дюрополімер</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-material checkbox"
-                  value="duropolymer"
-                />
-              </div>
-            </label>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Полістирол</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-material checkbox"
-                  value="durofoam"
-                />
-              </div>
-            </label>
-
-            <h3 class="filter-list-title">Призначення</h3>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Для штор</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-usage checkbox"
-                  value="curtains"
-                />
-              </div>
-            </label>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Для освітлення</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-usage checkbox"
-                  value="lighting"
-                />
-              </div>
-            </label>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Стіна-Стеля</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-usage checkbox"
-                  value="wall-ceiling"
-                />
-              </div>
-            </label>
-            <label class="filter-checkbox">
-              <div class="filter-checkbox-container">
-                <span class="checkbox-text">Гнучкий</span>
-                <input
-                  type="checkbox"
-                  class="checkbox-usage checkbox"
-                  value="flexible"
-                />
-              </div>
-            </label>
+            </div>
             <button class="filter-go-btn back-btn" id="filterGoBtn">
               Фільтрувати
             </button>
-          </div>
+            </div>
         </section>
         <section class="products-section">
           <div class="container">
@@ -428,6 +557,6 @@
     </footer>
     <div id="toast-container" class="toast-container"></div>
   </body>
-  <script type="module" src="../../scripts/btns.js"></script>
   <script type="module" src="../../scripts/sale.js"></script>
+  <script type="module" src="../../scripts/btns.js"></script>
 </html>

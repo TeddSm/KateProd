@@ -82,7 +82,7 @@ export function renderProducts(productsArray) {
                             <h3 class="product-card-title">${product.title}</h3>
                             <p class="product-card-brand">${displayBrand}</p>
                             <p class="product-card-material">${product.materialDisplay}®</p>
-                            <p class="product-card-size">${product.height}x${product.width}hx${product.length}</p>
+                            <p class="product-card-size">${product.width}x${product.height}hx${product.length}</p>
                             <p class="product-card-price">${priceHTML}</p>
                         </div>
                     </a>
