@@ -250,6 +250,7 @@ if (mainFilterToggle && filterContainer) {
   });
 }
 
+
 window.addEventListener('load', () => {
   if (window.location.hash === "#search") {
     openSearch.click(); 
