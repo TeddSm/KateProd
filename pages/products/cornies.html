@@ -90,10 +90,18 @@
           <ul class="nav-list-right nav-list">
             <li><a href="index.html" class="nav-list-item">ЗАВАНТАЖЕННЯ</a></li>
             <li><a href="#contacts" class="nav-list-item">КОНТАКТИ</a></li>
-            <li>
-              <a href="../../pages/products/products.html" class="nav-list-item"
-                ><img src="../../images/icons/search.png" class="search-icon"
-              /></a>
+            <li class="search-item">
+                <button id="openSearchBtn" class="open-search-btn"><img src="../../images/icons/search.png" class="search-icon" /></button>
+              <div class="search-container" id="searchContainer">
+<input type="text" id="search-input" placeholder="Пошук за назвою..." />
+      <button class="back-btn" id="search-btn">Пошук</button>
+      <img
+                src="../../images/icons/close.png"
+                class="close-search-icon"
+                id="closeSearchBtn"
+                alt="Закрити"
+              />
+              </div>
             </li>
           </ul>
           <button class="menu-open-btn" id="menu-btn">

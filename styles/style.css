@@ -272,8 +272,54 @@ header {
   max-width: 280px;
 }
 
+.open-search-btn {
+  border: 0;
+  background-color: inherit;
+}
+
 .search-icon {
   width: 15px;
+}
+
+.search-item {
+  position: relative;
+}
+
+.search-container {
+  display: none;
+  position: absolute;
+  top: 200%;
+  right: 100%;
+  background-color: white;
+  padding: 10px 30px 10px 10px;
+}
+
+.search-container.active {
+  display: flex;
+  gap: 10px;
+}
+
+.close-search-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+ width: 30px;
+ height: 30px;
+}
+
+#search-input {
+  font-size: 16px;
+}
+
+.error-blink {
+  outline: 1px solid red !important;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
 }
 
 .page-title {

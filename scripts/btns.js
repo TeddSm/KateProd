@@ -1,17 +1,47 @@
 import { getFilteredProducts, renderProducts } from "./main.js";
 
+const openSearch = document.querySelector("#openSearchBtn");
+const searchContainer = document.querySelector("#searchContainer");
+const closeSearch = document.querySelector("#closeSearchBtn");
+if(openSearch) {
+  openSearch.addEventListener("click", () => {
+    searchContainer.classList.add("active");
+    searchInput.focus();
+  })
+}
+if(closeSearch) {
+  closeSearch.addEventListener("click", () => {
+    searchContainer.classList.remove("active");
+  })
+}
+
 const searchBtn = document.querySelector("#search-btn");
 const searchInput = document.querySelector("#search-input");
 if (searchInput && searchBtn) {
   searchBtn.addEventListener("click", async (e) => {
+    if(searchInput.value.trim() === "")
+    {
+      searchInput.focus();
+      showToast("Заповніть пошукове поле!");
+      searchInput.classList.add('error-blink');
+    setTimeout(() => {
+      searchInput.classList.remove('error-blink');
+    }, 700);
+      return;
+    }
     const query = searchInput.value.toLowerCase().trim();
     const products = await getFilteredProducts();
     const filtered = products.filter((item) =>
       item.title.toLowerCase().includes(query)
     );
+    if (filtered.length > 0) {
+    showToast(`Знайдено товарів: ${filtered.length}`);
     renderProducts(filtered);
-    searchInput.value = "";
-  });
+    closeSearch.click();
+  } else {
+    showToast("На жаль, за вашим запитом нічого не знайдено");
+  }
+    });
   searchInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
       searchBtn.click();
@@ -219,3 +249,13 @@ if (mainFilterToggle && filterContainer) {
     filterContainer.classList.toggle("active");
   });
 }
+
+window.addEventListener('load', () => {
+  if (window.location.hash === "#search") {
+    openSearch.click(); 
+    searchInput.focus();
+    
+    
+    history.replaceState(null, null, ' ');
+  }
+});
