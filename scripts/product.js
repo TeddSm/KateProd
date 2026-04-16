@@ -1,28 +1,84 @@
 async function loadProductDetails() {
   const urlParams = new URLSearchParams(window.location.search);
   const productId = urlParams.get("id");
-
   if (!productId) return;
 
   try {
     const response = await fetch("../../data/data.json");
     const products = await response.json();
-
     const product = products.find((p) => p.id == productId);
 
-    if (product) {
-      document.getElementById("js-page-title").innerText = product.title;
-      document.getElementById("js-product-img").src = product.img;
-      document.getElementById("js-product-img").alt = product.title;
-      document.getElementById("js-product-title").innerText = product.title;
-      document.getElementById("js-product-text").innerText = product.desc;
-      document.getElementById("js-product-price").innerText = product.price;
-    } else {
-      document.getElementById("js-product-title").innerText =
-        "Товар не знайдено";
+    if (!product) {
+      document.getElementById("js-product-title").innerText = "Товар не знайдено";
+      return;
     }
+
+    const images = [
+      product.img,
+      `../../data/dataImg/${product.title.toLowerCase()}/${product.title.toLowerCase()}-size.webp`,
+      `../../data/dataImg/${product.title.toLowerCase()}/${product.title.toLowerCase()}-real.webp`,
+      `../../data/dataImg/${product.title.toLowerCase()}/${product.title.toLowerCase()}-pdf.webp`
+    ];
+
+    const track = document.getElementById("js-slider-track");
+    const dotsContainer = document.getElementById("js-dots");
+    
+    track.innerHTML = "";
+    dotsContainer.innerHTML = "";
+
+    images.forEach((src, index) => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = product.title;
+      img.onerror = () => img.remove(); 
+      track.appendChild(img);
+
+      const dot = document.createElement("span");
+      dot.classList.add("dot");
+      if (index === 0) dot.classList.add("active");
+      dot.onclick = () => goToSlide(index);
+      dotsContainer.appendChild(dot);
+    });
+
+    let currentIndex = 0;
+
+    function updateSlider() {
+      const width = track.clientWidth;
+      track.style.transform = `translateX(${-currentIndex * width}px)`;
+      
+      document.querySelectorAll('.dot').forEach((d, i) => {
+        d.classList.toggle('active', i === currentIndex);
+      });
+    }
+
+    function goToSlide(index) {
+      currentIndex = index;
+      updateSlider();
+    }
+
+    document.getElementById("js-next-btn").onclick = () => {
+      currentIndex = (currentIndex + 1) % track.children.length;
+      updateSlider();
+    };
+
+    document.getElementById("js-prev-btn").onclick = () => {
+      currentIndex = (currentIndex - 1 + track.children.length) % track.children.length;
+      updateSlider();
+    };
+
+    document.getElementById("js-page-title").innerText = product.title;
+    document.getElementById("js-product-title").innerText = product.title;
+    document.getElementById("js-product-text").innerText = product.desc;
+    document.getElementById("js-product-price").innerText = product.price;
+    document.getElementById("js-product-height").innerText = product.height;
+    document.getElementById("js-product-width").innerText = product.width;
+    document.getElementById("js-product-length").innerText = product.length;
+
+    window.addEventListener('resize', updateSlider);
+
   } catch (error) {
-    console.error("Помилка завантаження даних:", error);
+    console.error("Помилка:", error);
   }
 }
+
 loadProductDetails();
