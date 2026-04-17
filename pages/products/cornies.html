@@ -114,7 +114,7 @@
             />
           </button>
         </nav>
-        <section class="menu-mobile" id="menuMobile">
+       <section class="menu-mobile" id="menuMobile">
           <div class="container menu-container">
             <button class="menu-close-btn" id="close-btn">
               <img
@@ -123,22 +123,49 @@
                 alt="Закрити"
               />
             </button>
-            <h2 class="menu-title">Меню</h2>
+            <div class="menu-title">
+            <img src="../../images/logo/ld-logo-black.png" class="ld-logo-mobile" />
+          </div>
             <nav class="menu-nav">
               <ul class="menu-list">
                 <li class="menu-item">
-                  <a href="../../pages/products/products.html" class="menu-link"
-                    >Продукція</a
-                  >
+                 <h3 class="menu-list-title">Продукція<svg
+                  class="mobile-menu-arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h3>
+                  <div class="mobile-menu-section">
+                    <ul class="menu-productions-list">
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/products.html">Вся продукція</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/cornies.html">Карнизи</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/moldings.html">Молдинги</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/skirting.html">Плінтуса</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/wallpanels.html">Стінові 3D панелі</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/light.html">Світлові рішення</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/scenery.html">Декоративні елементи</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/glues-tools.html">Клеї та інструменти</a></li>
+                    </ul>
+                  </div>
                 </li>
                 <li class="menu-item">
-                  <a href="./.html" class="menu-link">Натхнення</a>
+                <a href="./.html" class="menu-list-title">Натхнення</a>
                 </li>
                 <li class="menu-item">
-                  <a href="./.html" class="menu-link">Завантаження</a>
+                  <a href="./.html" class="menu-list-title">Завантаження</a>
                 </li>
                 <li class="menu-item">
-                  <a href="./.html" class="menu-link">Контакти</a>
+                  <a href="./.html" class="menu-list-title">Контакти</a>
                 </li>
               </ul>
             </nav>
@@ -193,7 +220,7 @@
                 </svg></h2>
   <div id="mobileSearchContent" class="mobile-search-content">
    <div class="search-group tools-search-group">
-  <input type="text" class="search-input" placeholder="Пошук за назвою..." />
+  <input type="text" id="filterSearchInput" class="search-input" placeholder="Пошук за назвою..." />
   <button class="search-btn back-btn">Пошук</button>
 </div>
   </div>

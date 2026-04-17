@@ -246,6 +246,7 @@ const mobileSearchContainer = document.querySelector(".mobile-search-container")
 if(mobileSearchToggle) {
   mobileSearchToggle.addEventListener("click", () => {
     mobileSearchContainer.classList.toggle("active");
+    filterSearchInput.focus();
   })
 }
 

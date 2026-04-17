@@ -121,6 +121,14 @@ header {
     display: none;
   }
 
+  .menu-title {
+  margin-top: 5px;
+}
+
+.ld-logo-mobile {
+width: 100%;
+}
+
   .menu-mobile {
     position: fixed;
     top: 0;
@@ -193,6 +201,7 @@ header {
   display: none;
 }
 
+
 .menu-item.active .mobile-menu-section {
   display: block;
 }
@@ -208,6 +217,13 @@ header {
 
 .menu-item.active .mobile-menu-arrow {
   transform: rotate(180deg);
+}
+
+.menu-productions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 26px;
 }
 
 }
@@ -287,6 +303,7 @@ header {
   border-bottom: 1px solid black;
 }
 
+
 .logo-container {
   margin-left: 20px;
 }
@@ -295,9 +312,6 @@ header {
   max-width: 280px;
 }
 
-.ld-logo-mobile {
-  max-width: 340px;
-}
 
 .open-search-btn {
   border: 0;
