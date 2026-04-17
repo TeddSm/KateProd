@@ -426,12 +426,12 @@ width: 100%;
 }
 
 .left-photo {
-  background-image: url("../images/hero-light-bg.png");
+  background-image: url("../images/hero-light-bg.webp");
   z-index: 1;
 }
 
 .right-photo {
-  background-image: url("../images/hero-bg.jpeg");
+  background-image: url("../images/hero-bg.webp");
   z-index: 2;
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
 }

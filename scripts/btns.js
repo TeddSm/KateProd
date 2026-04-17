@@ -182,6 +182,7 @@ function initDoubleSlider(minId, maxId, minTextId, maxTextId, trackId) {
   const colorActive = "#000000";
   const colorStatic = "#ddd";
 
+  if(minSlider && maxSlider) {
   function update() {
     let valMin = parseInt(minSlider.value);
     let valMax = parseInt(maxSlider.value);
@@ -203,11 +204,11 @@ function initDoubleSlider(minId, maxId, minTextId, maxTextId, trackId) {
     minText.textContent = valMin;
     maxText.textContent = valMax;
   }
-
   minSlider.addEventListener("input", update);
   maxSlider.addEventListener("input", update);
 
   update();
+}
 }
 
 initDoubleSlider(

@@ -109,7 +109,7 @@ init();
 
 
 const backToTopBtn = document.getElementById("backToTop");
-
+if(backToTopBtn) {
 window.addEventListener("scroll", () => {
   if (window.scrollY > 600) {
     backToTopBtn.classList.add("show");
@@ -124,3 +124,4 @@ backToTopBtn.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+}
