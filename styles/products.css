@@ -11,17 +11,62 @@
   display: flex;
 }
 
+.mobile-search-content {
+  display: none;
+}
+
+.mobile-search-container.active .mobile-search-content {
+  display: block;
+}
+
+.mobile-search-title .arrow {
+  transition: transform 0.3s ease;
+}
+
+.mobile-search-container.active .arrow {
+  transform: rotate(180deg);
+}
+
+.tools-search-group {
+    margin-top: 10px;
+  }
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .filter-section {
+    margin: auto;
+  }
+}
+
+.tools-container {
+  display: flex;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px; 
+  align-self: flex-start; 
+  z-index: 10;
+  width: 100%;
+}
+
+.tools-container-title {
+font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
 .filter-menu-container {
   max-width: 100%;
   min-width: 170px;
-}
-
-.filter-container {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10px; /* Обов'язково! */
-  align-self: flex-start; /* Обов'язково для Flexbox, щоб контейнер не розтягувався на всю висоту контенту */
-  z-index: 10;
 }
 
 @media (max-width: 768px) {
@@ -33,21 +78,14 @@
   }
 }
 
-.filter-title {
-  font-size: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  user-select: none;
-  width: 100%;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-
 @media (min-width: 769px) {
-  .filter-title {
-    width: 200px;
+  .tools-container {
+    width: 240px;
+  }
+
+  .tools-search-group {
+    flex-direction: column;
+    padding: 0;
   }
 }
 
@@ -193,11 +231,6 @@
 @media (max-width: 768px) {
   .hero-tex-pages {
     margin-bottom: 0;
-  }
-
-  .filter-title {
-    margin: 0;
-    font-size: 30px;
   }
 
   .filter-list-title {

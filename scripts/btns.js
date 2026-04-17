@@ -6,7 +6,7 @@ const closeSearch = document.querySelector("#closeSearchBtn");
 if(openSearch) {
   openSearch.addEventListener("click", () => {
     searchContainer.classList.add("active");
-    searchInput.focus();
+    searchInputHeader.focus();
   })
 }
 if(closeSearch) {
@@ -15,39 +15,45 @@ if(closeSearch) {
   })
 }
 
-const searchBtn = document.querySelector("#search-btn");
-const searchInput = document.querySelector("#search-input");
-if (searchInput && searchBtn) {
-  searchBtn.addEventListener("click", async (e) => {
-    if(searchInput.value.trim() === "")
-    {
-      searchInput.focus();
-      showToast("Заповніть пошукове поле!");
-      searchInput.classList.add('error-blink');
-    setTimeout(() => {
-      searchInput.classList.remove('error-blink');
-    }, 700);
-      return;
-    }
-    const query = searchInput.value.toLowerCase().trim();
-    const products = await getFilteredProducts();
-    const filtered = products.filter((item) =>
-      item.title.toLowerCase().includes(query)
-    );
-    if (filtered.length > 0) {
+async function performSearch(inputElement) {
+  const query = inputElement.value.toLowerCase().trim();
+
+  if (query === "") {
+    inputElement.focus();
+    showToast("Заповніть пошукове поле!");
+    inputElement.classList.add('error-blink');
+    setTimeout(() => inputElement.classList.remove('error-blink'), 700);
+    return;
+  }
+
+  const products = await getFilteredProducts();
+  const filtered = products.filter((item) =>
+    item.title.toLowerCase().includes(query)
+  );
+
+  if (filtered.length > 0) {
     showToast(`Знайдено товарів: ${filtered.length}`);
     renderProducts(filtered);
-    closeSearch.click();
+    
   } else {
-    showToast("На жаль, за вашим запитом нічого не знайдено");
+    showToast("На жаль, нічого не знайдено");
   }
-    });
-  searchInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      searchBtn.click();
-    }
-  });
 }
+
+document.querySelectorAll(".search-group").forEach((group) => {
+  const btn = group.querySelector(".search-btn");
+  const input = group.querySelector(".search-input");
+
+  if (btn && input) {
+    btn.addEventListener("click", () => performSearch(input));
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        performSearch(input);
+      }
+    });
+  }
+});
 
 const closeBtn = document.getElementById("close-btn");
 const menuBtn = document.getElementById("menu-btn");
@@ -234,6 +240,15 @@ export function showToast(message) {
   }, 3000);
 }
 
+const mobileSearchToggle = document.getElementById("mobileSearchToggle");
+const mobileSearchContainer = document.querySelector(".mobile-search-container");
+
+if(mobileSearchToggle) {
+  mobileSearchToggle.addEventListener("click", () => {
+    mobileSearchContainer.classList.toggle("active");
+  })
+}
+
 document.querySelectorAll(".filter-list-title").forEach((title) => {
   title.addEventListener("click", () => {
     const parent = title.parentElement;
@@ -250,11 +265,10 @@ if (mainFilterToggle && filterContainer) {
   });
 }
 
-
 window.addEventListener('load', () => {
   if (window.location.hash === "#search") {
     openSearch.click(); 
-    searchInput.focus();
+    searchInputHeader.focus();
     
     
     history.replaceState(null, null, ' ');

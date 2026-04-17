@@ -93,8 +93,10 @@
             <li class="search-item">
                 <button id="openSearchBtn" class="open-search-btn"><img src="../../images/icons/search.png" class="search-icon" /></button>
               <div class="search-container" id="searchContainer">
-<input type="text" id="search-input" placeholder="Пошук за назвою..." />
-      <button class="back-btn" id="search-btn">Пошук</button>
+                 <div class="search-group">
+<input type="text" id="searchInputHeader" class="search-input" placeholder="Пошук за назвою..." />
+      <button class="back-btn search-btn" >Пошук</button>
+      </div>
       <img
                 src="../../images/icons/close.png"
                 class="close-search-icon"
@@ -170,12 +172,39 @@
         </div>
       </section>
       <div class="container main-container">
+        <div class="tools-container">
+        <section class="mobile-search-section">
+<div class="mobile-search-container">
+  <h2 id="mobileSearchToggle" class="mobile-search-title tools-container-title">ПОШУК <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h2>
+  <div id="mobileSearchContent" class="mobile-search-content">
+   <div class="search-group tools-search-group">
+  <input type="text" class="search-input" placeholder="Пошук за назвою..." />
+  <button class="search-btn back-btn">Пошук</button>
+</div>
+  </div>
+  </div>
+          </section>
         <section class="filter-section">
           <div
-            class="container filter-container filter-menu-container"
+            class="filter-container filter-menu-container"
             id="filterContainer"
           >
-            <h2 id="mainFilterToggle" class="filter-title">ФІЛЬТР <svg
+            <h2 id="mainFilterToggle" class="filter-title tools-container-title">ФІЛЬТР <svg
                   class="arrow"
                   width="14"
                   height="8"
@@ -457,6 +486,7 @@
             </button>
             </div>
         </section>
+        </div>
         <section class="products-section">
           <div class="container">
             <ul id="productList" class="product-list"></ul>
