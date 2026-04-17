@@ -694,3 +694,36 @@ footer {
 .footer-about-text {
   font-size: 18px;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;  
+  width: 40px;
+  height: 40px;
+  background-color: #000; 
+  color: #fff;
+  border: none;
+  border-radius: 50%; 
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 9999; 
+  
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
