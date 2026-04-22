@@ -2472,5 +2472,366 @@
     "sale": false,
     "oldPrice": null,
     "length": 2000
+  },
+  {
+    "id": 122001,
+    "category": "cornice",
+    "title": "IL3",
+    "price": 0,
+    "img": "../../data/dataImg/il3/il3.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 33,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122002,
+    "category": "cornice",
+    "title": "IL4",
+    "price": 0,
+    "img": "../../data/dataImg/il4/il4.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 60,
+    "width": 36,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122003,
+    "category": "cornice",
+    "title": "IL13",
+    "price": 0,
+    "img": "../../data/dataImg/il13/il13.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 52,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122004,
+    "category": "cornice",
+    "title": "IL18",
+    "price": 0,
+    "img": "../../data/dataImg/il18/il18.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 90,
+    "width": 121,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122005,
+    "category": "cornice",
+    "title": "WT3",
+    "price": 0,
+    "img": "../../data/dataImg/wt3/wt3.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 110,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122006,
+    "category": "cornice",
+    "title": "WT4",
+    "price": 0,
+    "img": "../../data/dataImg/wt4/wt4.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 70,
+    "width": 180,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122007,
+    "category": "cornice",
+    "title": "WT5",
+    "price": 0,
+    "img": "../../data/dataImg/wt5/wt5.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 52,
+    "width": 52,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122008,
+    "category": "cornice",
+    "title": "WT6",
+    "price": 0,
+    "img": "../../data/dataImg/wt6/wt6.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 40,
+    "width": 40,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122009,
+    "category": "cornice",
+    "title": "WT7",
+    "price": 0,
+    "img": "../../data/dataImg/wt7/wt7.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 16,
+    "width": 22,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122010,
+    "category": "cornice",
+    "title": "WT8",
+    "price": 0,
+    "img": "../../data/dataImg/wt8/wt8.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 30,
+    "width": 20,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122011,
+    "category": "cornice",
+    "title": "WT9",
+    "price": 0,
+    "img": "../../data/dataImg/wt9/wt9.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 49,
+    "width": 42,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122012,
+    "category": "cornice",
+    "title": "WT10",
+    "price": 0,
+    "img": "../../data/dataImg/wt10/wt10.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 84,
+    "width": 84,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122013,
+    "category": "cornice",
+    "title": "WT11",
+    "price": 0,
+    "img": "../../data/dataImg/wt11/wt11.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 106,
+    "width": 126,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122014,
+    "category": "cornice",
+    "title": "WT15",
+    "price": 0,
+    "img": "../../data/dataImg/wt15/wt15.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 70,
+    "width": 70,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122015,
+    "category": "cornice",
+    "title": "WT16",
+    "price": 0,
+    "img": "../../data/dataImg/wt16/wt16.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 45,
+    "width": 45,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122016,
+    "category": "cornice",
+    "title": "WT17",
+    "price": 0,
+    "img": "../../data/dataImg/wt17/wt17.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 95,
+    "width": 95,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122017,
+    "category": "cornice",
+    "title": "WT22",
+    "price": 0,
+    "img": "../../data/dataImg/wt22/wt22.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 100,
+    "width": 225,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122018,
+    "category": "cornice",
+    "title": "WT25",
+    "price": 0,
+    "img": "../../data/dataImg/wt25/wt25.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 78,
+    "width": 78,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 122019,
+    "category": "cornice",
+    "title": "WT26",
+    "price": 0,
+    "img": "../../data/dataImg/wt26/wt26.webp",
+    "brand": "NOEL",
+    "material": "duropolymer",
+    "materialDisplay": "Wallstyl",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 75,
+    "width": 75,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
   }
 ]
