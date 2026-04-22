@@ -66,10 +66,42 @@ async function loadProductDetails() {
       updateSlider();
     };
 
+    const categoryData = {
+    "cornice": { name : "Карнизи", url: "cornies.html" },
+    "molding": { name: "Молдинги", url: "moldings.html" },
+    "skirting": { name: "Плінтуса", url: "skirting.html" },
+    "wallpanel": { name: "Стінові 3D панелі", url: "wallpanels.html" },
+    "scenery": { name: "Декоративні елементи", url: "scenery.html" },
+    "tool": { name: "Клеї і інструмент", url: "glues-tools.html" },
+    "light": { name: "Світлові рішення", url: "light.html" }
+};
+
+const brandNames = {
+    ORAC: "OracDecor",
+    NOEL: "Noel & Marquet",
+  };
+
+const catInfo = categoryData[product.category];
+ const displayBrand = brandNames[product.brand] || product.brand;
+
+if (catInfo) {
+    const catLink = document.getElementById("pageMapCategory");
+    
+    catLink.innerHTML = catInfo.name;
+    
+    catLink.href = `../products/${catInfo.url}`;
+}
+
+const pageMapProduct = document.getElementById("pageMapProduct");
+pageMapProduct.innerHTML = product.title;
+pageMapProduct.href = window.location.href;
+
     document.getElementById("js-page-title").innerText = product.title;
     document.getElementById("js-product-title").innerText = product.title;
     document.getElementById("js-product-text").innerText = product.desc;
     document.getElementById("js-product-price").innerText = product.price;
+     document.getElementById("js-product-brand").innerText = displayBrand;
+       document.getElementById("js-product-materialDisplay").innerText = product.materialDisplay;
     document.getElementById("js-product-height").innerText = product.height;
     document.getElementById("js-product-width").innerText = product.width;
     document.getElementById("js-product-length").innerText = product.length;
