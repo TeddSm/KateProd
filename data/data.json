@@ -8,7 +8,10 @@
     "brand": "ORAC",
     "material": "purotouch",
     "materialDisplay": "Purotouch",
-    "usage": ["curtains", "wall-ceiling"],
+    "usage": [
+      "curtains",
+      "wall-ceiling"
+    ],
     "desc": "Класичний карниз для високих стель.",
     "height": 57,
     "width": 65,
@@ -25,7 +28,10 @@
     "brand": "ORAC",
     "material": "purotouch",
     "materialDisplay": "Purotouch",
-    "usage": ["curtains", "wall-ceiling"],
+    "usage": [
+      "curtains",
+      "wall-ceiling"
+    ],
     "desc": "Класичний карниз для високих стель.",
     "height": 48,
     "width": 116,
@@ -190,7 +196,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 67,
     "width": 67,
@@ -207,7 +215,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 90,
     "width": 90,
@@ -224,7 +234,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 35,
     "width": 35,
@@ -241,7 +253,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 50,
     "width": 50,
@@ -258,7 +272,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 67,
     "width": 67,
@@ -275,7 +291,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 44,
     "width": 59,
@@ -292,7 +310,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 90,
     "width": 90,
@@ -309,7 +329,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 65,
     "width": 60,
@@ -326,7 +348,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 0,
     "width": 0,
@@ -343,7 +367,9 @@
     "brand": "ORAC",
     "material": "durofoam",
     "materialDisplay": "Durofoam",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 0,
     "width": 0,
@@ -360,7 +386,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 69,
     "width": 71,
@@ -377,7 +405,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 118,
     "width": 117,
@@ -394,7 +424,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 118,
     "width": 117,
@@ -411,7 +443,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 54,
     "width": 55,
@@ -428,7 +462,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 44,
     "width": 44,
@@ -445,7 +481,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 45,
     "width": 41,
@@ -462,7 +500,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 26,
     "width": 15,
@@ -479,7 +519,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 54,
     "width": 38,
@@ -496,7 +538,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 30,
     "width": 29,
@@ -513,7 +557,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 80,
     "width": 80,
@@ -530,7 +576,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 49,
     "width": 49,
@@ -547,7 +595,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 87,
     "width": 87,
@@ -564,7 +614,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 94,
     "width": 94,
@@ -581,7 +633,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 94,
     "width": 94,
@@ -598,7 +652,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 20,
     "width": 20,
@@ -615,7 +671,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 20,
     "width": 20,
@@ -632,7 +690,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 30,
     "width": 30,
@@ -649,7 +709,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 59,
     "width": 31,
@@ -666,7 +728,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 43,
     "width": 29,
@@ -683,7 +747,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 39,
@@ -700,7 +766,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 69,
@@ -717,7 +785,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 80,
     "width": 40,
@@ -734,7 +804,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 70,
     "width": 60,
@@ -751,7 +823,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 33,
     "width": 30,
@@ -768,7 +842,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 26,
     "width": 27,
@@ -785,7 +861,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 20,
     "width": 30,
@@ -802,7 +880,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 120,
     "width": 60,
@@ -819,7 +899,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 117,
     "width": 113,
@@ -836,7 +918,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 50,
     "width": 93,
@@ -853,7 +937,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 80,
     "width": 80,
@@ -870,7 +956,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 145,
     "width": 149,
@@ -887,7 +975,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 95,
     "width": 45,
@@ -904,7 +994,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 125,
     "width": 45,
@@ -921,7 +1013,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 155,
     "width": 50,
@@ -938,7 +1032,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 30,
     "width": 24,
@@ -955,7 +1051,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 20,
     "width": 83,
@@ -972,7 +1070,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 66,
@@ -989,7 +1089,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 10,
     "width": 40,
@@ -1006,7 +1108,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 101,
@@ -1023,7 +1127,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 150,
     "width": 13,
@@ -1040,7 +1146,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 16,
     "width": 120,
@@ -1057,7 +1165,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 22,
     "width": 200,
@@ -1074,7 +1184,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 50,
@@ -1091,7 +1203,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 75,
@@ -1108,7 +1222,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 13,
     "width": 110,
@@ -1125,7 +1241,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 12,
     "width": 75,
@@ -1142,7 +1260,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 20,
     "width": 10,
@@ -1159,7 +1279,9 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 250,
     "width": 13,
@@ -1176,10 +1298,1343 @@
     "brand": "ORAC",
     "material": "duropolymer",
     "materialDisplay": "Duropolymer",
-    "usage": ["wall-ceiling"],
+    "usage": [
+      "wall-ceiling"
+    ],
     "desc": "Класичний елемент декору.",
     "height": 170,
     "width": 13,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111001,
+    "category": "cornice",
+    "title": "C200",
+    "price": 0,
+    "img": "../../data/dataImg/c200/c200.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 65,
+    "width": 57,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111002,
+    "category": "cornice",
+    "title": "C201",
+    "price": 0,
+    "img": "../../data/dataImg/c201/c201.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 116,
+    "width": 48,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111003,
+    "category": "cornice",
+    "title": "C211",
+    "price": 0,
+    "img": "../../data/dataImg/c211/c211.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 116,
+    "width": 112,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111004,
+    "category": "cornice",
+    "title": "C212",
+    "price": 0,
+    "img": "../../data/dataImg/c211/c211.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 75,
+    "width": 45,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111005,
+    "category": "cornice",
+    "title": "C213",
+    "price": 0,
+    "img": "../../data/dataImg/c213/c213.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 80,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111006,
+    "category": "cornice",
+    "title": "C215",
+    "price": 0,
+    "img": "../../data/dataImg/c215/c215.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 47,
+    "width": 47,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111007,
+    "category": "cornice",
+    "title": "C216",
+    "price": 0,
+    "img": "../../data/dataImg/c216/c216.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 116,
+    "width": 133,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111008,
+    "category": "cornice",
+    "title": "C217",
+    "price": 0,
+    "img": "../../data/dataImg/c217/c217.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 103,
+    "width": 156,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111009,
+    "category": "cornice",
+    "title": "C219",
+    "price": 0,
+    "img": "../../data/dataImg/c219/c219.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 176,
+    "width": 130,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111010,
+    "category": "cornice",
+    "title": "C220",
+    "price": 0,
+    "img": "../../data/dataImg/c220/c220.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 76,
+    "width": 116,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111011,
+    "category": "cornice",
+    "title": "C230",
+    "price": 0,
+    "img": "../../data/dataImg/c220/c220.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 29,
+    "width": 29,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111012,
+    "category": "cornice",
+    "title": "C240",
+    "price": 0,
+    "img": "../../data/dataImg/c240/c240.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 80,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111013,
+    "category": "cornice",
+    "title": "C250",
+    "price": 0,
+    "img": "../../data/dataImg/c250/c250.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 16,
+    "width": 16,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111014,
+    "category": "cornice",
+    "title": "C260",
+    "price": 0,
+    "img": "../../data/dataImg/c260/c260.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 41,
+    "width": 48,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111015,
+    "category": "cornice",
+    "title": "C301",
+    "price": 0,
+    "img": "../../data/dataImg/c301/c301.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 170,
+    "width": 144,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111016,
+    "category": "cornice",
+    "title": "C303",
+    "price": 0,
+    "img": "../../data/dataImg/c303/c303.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 144,
+    "width": 65,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111017,
+    "category": "cornice",
+    "title": "C304",
+    "price": 0,
+    "img": "../../data/dataImg/c304/c304.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 122,
+    "width": 72,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111018,
+    "category": "cornice",
+    "title": "C305",
+    "price": 0,
+    "img": "../../data/dataImg/c305/c305.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 47,
+    "width": 155,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111019,
+    "category": "cornice",
+    "title": "C307",
+    "price": 0,
+    "img": "../../data/dataImg/c307/c307.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 195,
+    "width": 195,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111020,
+    "category": "cornice",
+    "title": "C321",
+    "price": 0,
+    "img": "../../data/dataImg/c321/c321.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 98,
+    "width": 49,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111021,
+    "category": "cornice",
+    "title": "C322",
+    "price": 0,
+    "img": "../../data/dataImg/c322/c322.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 42,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111022,
+    "category": "cornice",
+    "title": "C323",
+    "price": 0,
+    "img": "../../data/dataImg/c323/c323.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 55,
+    "width": 42,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111023,
+    "category": "cornice",
+    "title": "C324",
+    "price": 0,
+    "img": "../../data/dataImg/c324/c324.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 83,
+    "width": 34,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111024,
+    "category": "cornice",
+    "title": "C325",
+    "price": 0,
+    "img": "../../data/dataImg/c325/c325.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 70,
+    "width": 65,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111025,
+    "category": "cornice",
+    "title": "C326",
+    "price": 0,
+    "img": "../../data/dataImg/c326/c326.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 105,
+    "width": 90,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111026,
+    "category": "cornice",
+    "title": "C327",
+    "price": 0,
+    "img": "../../data/dataImg/c327/c327.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 143,
+    "width": 159,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111027,
+    "category": "cornice",
+    "title": "C328",
+    "price": 0,
+    "img": "../../data/dataImg/c328/c328.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "lighting",
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 90,
+    "width": 68,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111028,
+    "category": "cornice",
+    "title": "C331",
+    "price": 0,
+    "img": "../../data/dataImg/c331/c331.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 64,
+    "width": 135,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111029,
+    "category": "cornice",
+    "title": "C332",
+    "price": 0,
+    "img": "../../data/dataImg/c332/c332.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 114,
+    "width": 230,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111030,
+    "category": "cornice",
+    "title": "C333",
+    "price": 0,
+    "img": "../../data/dataImg/c333/c333.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 122,
+    "width": 111,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111031,
+    "category": "cornice",
+    "title": "C334",
+    "price": 0,
+    "img": "../../data/dataImg/c334/c334.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 150,
+    "width": 196,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111032,
+    "category": "cornice",
+    "title": "C336",
+    "price": 0,
+    "img": "../../data/dataImg/c336/c336.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 271,
+    "width": 266,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111033,
+    "category": "cornice",
+    "title": "C338",
+    "price": 0,
+    "img": "../../data/dataImg/c338/c338.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 182,
+    "width": 182,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111034,
+    "category": "cornice",
+    "title": "C339",
+    "price": 0,
+    "img": "../../data/dataImg/c339/c339.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 141,
+    "width": 64,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111035,
+    "category": "cornice",
+    "title": "C340",
+    "price": 0,
+    "img": "../../data/dataImg/c340/c340.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 135,
+    "width": 256,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111036,
+    "category": "cornice",
+    "title": "C341",
+    "price": 0,
+    "img": "../../data/dataImg/c341/c341.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 88,
+    "width": 122,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111037,
+    "category": "cornice",
+    "title": "C342",
+    "price": 0,
+    "img": "../../data/dataImg/c342/c342.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 140,
+    "width": 190,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111038,
+    "category": "cornice",
+    "title": "C343",
+    "price": 0,
+    "img": "../../data/dataImg/c343/c343.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 190,
+    "width": 250,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111039,
+    "category": "cornice",
+    "title": "C344",
+    "price": 0,
+    "img": "../../data/dataImg/c344/c344.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 273,
+    "width": 350,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111040,
+    "category": "cornice",
+    "title": "C352",
+    "price": 0,
+    "img": "../../data/dataImg/c352/c352.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 76,
+    "width": 170,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111041,
+    "category": "cornice",
+    "title": "C353",
+    "price": 0,
+    "img": "../../data/dataImg/c353/c353.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 30,
+    "width": 165,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111042,
+    "category": "cornice",
+    "title": "C354",
+    "price": 0,
+    "img": "../../data/dataImg/c354/c354.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 40,
+    "width": 215,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111043,
+    "category": "cornice",
+    "title": "C355",
+    "price": 0,
+    "img": "../../data/dataImg/c355/c355.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 35,
+    "width": 111,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111044,
+    "category": "cornice",
+    "title": "C356",
+    "price": 0,
+    "img": "../../data/dataImg/c356/c356.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 20,
+    "width": 100,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111045,
+    "category": "cornice",
+    "title": "C357",
+    "price": 0,
+    "img": "../../data/dataImg/c357/c357.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 71,
+    "width": 110,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111046,
+    "category": "cornice",
+    "title": "C360",
+    "price": 0,
+    "img": "../../data/dataImg/c360/c360.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 21,
+    "width": 60,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111047,
+    "category": "cornice",
+    "title": "C361",
+    "price": 0,
+    "img": "../../data/dataImg/c361/c361.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111048,
+    "category": "cornice",
+    "title": "C362",
+    "price": 0,
+    "img": "../../data/dataImg/c362/c362.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111049,
+    "category": "cornice",
+    "title": "C371",
+    "price": 0,
+    "img": "../../data/dataImg/c371/c371.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 185,
+    "width": 58,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111050,
+    "category": "cornice",
+    "title": "C373",
+    "price": 0,
+    "img": "../../data/dataImg/c373/c373.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 80,
+    "width": 49,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111051,
+    "category": "cornice",
+    "title": "C374",
+    "price": 0,
+    "img": "../../data/dataImg/c374/c374.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 180,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111052,
+    "category": "cornice",
+    "title": "C380",
+    "price": 0,
+    "img": "../../data/dataImg/c380/c380.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111053,
+    "category": "cornice",
+    "title": "C381",
+    "price": 0,
+    "img": "../../data/dataImg/c381/c381.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 95,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111054,
+    "category": "cornice",
+    "title": "C382",
+    "price": 0,
+    "img": "../../data/dataImg/c382/c382.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 140,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111055,
+    "category": "cornice",
+    "title": "C383",
+    "price": 0,
+    "img": "../../data/dataImg/c383/c383.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 50,
+    "width": 140,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111056,
+    "category": "cornice",
+    "title": "C390",
+    "price": 0,
+    "img": "../../data/dataImg/c390/c390.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 60,
+    "width": 100,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111057,
+    "category": "cornice",
+    "title": "C391",
+    "price": 0,
+    "img": "../../data/dataImg/c391/c391.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 60,
+    "width": 160,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111058,
+    "category": "cornice",
+    "title": "C392",
+    "price": 0,
+    "img": "../../data/dataImg/c392/c392.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 100,
+    "width": 190,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111059,
+    "category": "cornice",
+    "title": "C393",
+    "price": 0,
+    "img": "../../data/dataImg/c393/c393.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 150,
+    "width": 210,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111060,
+    "category": "cornice",
+    "title": "C394",
+    "price": 0,
+    "img": "../../data/dataImg/c394/c394.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 95,
+    "width": 31,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111061,
+    "category": "cornice",
+    "title": "C395",
+    "price": 0,
+    "img": "../../data/dataImg/c395/c395.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 31,
+    "width": 155,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111062,
+    "category": "cornice",
+    "title": "C396",
+    "price": 0,
+    "img": "../../data/dataImg/c396/c396.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 185,
+    "width": 61,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111063,
+    "category": "cornice",
+    "title": "C400",
+    "price": 0,
+    "img": "../../data/dataImg/c400/c400.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 60,
+    "width": 100,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111064,
+    "category": "cornice",
+    "title": "C422",
+    "price": 0,
+    "img": "../../data/dataImg/c422/c422.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 164,
+    "width": 194,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111065,
+    "category": "cornice",
+    "title": "C602",
+    "price": 0,
+    "img": "../../data/dataImg/c602/c602.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 53,
+    "width": 50,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111066,
+    "category": "cornice",
+    "title": "C900",
+    "price": 0,
+    "img": "../../data/dataImg/c900/c900.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 171,
+    "width": 146,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111067,
+    "category": "cornice",
+    "title": "C901",
+    "price": 0,
+    "img": "../../data/dataImg/c901/c901.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 148,
+    "width": 124,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111068,
+    "category": "cornice",
+    "title": "C902",
+    "price": 0,
+    "img": "../../data/dataImg/c902/c902.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 103,
+    "width": 103,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111069,
+    "category": "cornice",
+    "title": "C990",
+    "price": 0,
+    "img": "../../data/dataImg/c990/c990.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 159,
+    "width": 216,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 111070,
+    "category": "cornice",
+    "title": "C991",
+    "price": 0,
+    "img": "../../data/dataImg/c991/c991.webp",
+    "brand": "ORAC",
+    "material": "purotouch",
+    "materialDisplay": "Purotouch",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний елемент декору.",
+    "height": 110,
+    "width": 140,
     "sale": false,
     "oldPrice": null,
     "length": 2000
