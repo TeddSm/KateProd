@@ -3885,7 +3885,7 @@
   {
     "id": 121029,
     "category": "cornice",
-    "title": "Z19 Flex",
+    "title": "Z19-Flex",
     "price": 2100,
     "img": "../../data/dataImg/z19-flex/z19-flex.webp",
     "brand": "NOEL",
@@ -3987,7 +3987,7 @@
   {
     "id": 121035,
     "category": "cornice",
-    "title": "Z1220 Flex",
+    "title": "Z1220-Flex",
     "price": 1500,
     "img": "../../data/dataImg/z1220-flex/z1220-flex.webp",
     "brand": "NOEL",
@@ -4021,7 +4021,7 @@
   {
     "id": 121037,
     "category": "cornice",
-    "title": "Z1240 Flex",
+    "title": "Z1240-Flex",
     "price": 1110,
     "img": "../../data/dataImg/z1240-flex/z1240-flex.webp",
     "brand": "NOEL",
