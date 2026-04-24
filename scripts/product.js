@@ -96,8 +96,8 @@ const pageMapProduct = document.getElementById("pageMapProduct");
 pageMapProduct.innerHTML = product.title;
 pageMapProduct.href = window.location.href;
 
-    document.getElementById("js-page-title").innerText = product.title;
-    document.getElementById("js-product-title").innerText = product.title;
+    document.getElementById("js-page-title").innerText = product.title.replace("-", " ");
+    document.getElementById("js-product-title").innerText = product.title.replace("-", " ");
     document.getElementById("js-product-text").innerText = product.desc;
     document.getElementById("js-product-price").innerText = product.price;
      document.getElementById("js-product-brand").innerText = displayBrand;

@@ -79,7 +79,7 @@ export function renderProducts(productsArray) {
                             ${saleBadgeHTML} 
                         </div>
                         <div class="product-card-body">
-                            <h3 class="product-card-title">${product.title}</h3>
+                            <h3 class="product-card-title">${product.title.replace("-", " ")}</h3>
                             <p class="product-card-brand">${displayBrand}</p>
                             <p class="product-card-material">${product.materialDisplay}®</p>
                             <p class="product-card-size">${product.width}x${product.height}hx${product.length}</p>
