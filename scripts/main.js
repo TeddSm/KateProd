@@ -59,6 +59,7 @@ export function renderProducts(productsArray) {
   };
 
 
+let allCardsHTML = "";
 
  productsArray.forEach((product) => {
     const displayBrand = brandNames[product.brand.toLowerCase()] || product.brand;
@@ -89,8 +90,10 @@ export function renderProducts(productsArray) {
                 </article>
             </li>
         `;
-    listContainer.innerHTML += cardHTML;
+        allCardsHTML += cardHTML;
+    
 });
+listContainer.innerHTML += allCardsHTML;
 }
 
 export async function init() {

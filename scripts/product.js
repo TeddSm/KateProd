@@ -13,32 +13,50 @@ async function loadProductDetails() {
       return;
     }
 
-    const images = [
-      product.img,
-      `../../data/dataImg/${product.title.toLowerCase()}/${product.title.toLowerCase()}-size.webp`,
-      `../../data/dataImg/${product.title.toLowerCase()}/${product.title.toLowerCase()}-real.webp`,
-      `../../data/dataImg/${product.title.toLowerCase()}/${product.title.toLowerCase()}-pdf.webp`
-    ];
+const images = [
+  product.img,
+  `../../data/dataImg/${product.category}/${product.title.toLowerCase()}/${product.title.toLowerCase()}-size.webp`,
+  `../../data/dataImg/${product.category}/${product.title.toLowerCase()}/${product.title.toLowerCase()}-real.webp`,
+  `../../data/dataImg/${product.category}/${product.title.toLowerCase()}/${product.title.toLowerCase()}-pdf.webp`
+];
 
-    const track = document.getElementById("js-slider-track");
-    const dotsContainer = document.getElementById("js-dots");
-    
-    track.innerHTML = "";
-    dotsContainer.innerHTML = "";
+const track = document.getElementById("js-slider-track");
+const dotsContainer = document.getElementById("js-dots");
 
-    images.forEach((src, index) => {
-      const img = document.createElement("img");
-      img.src = src;
-      img.alt = product.title;
-      img.onerror = () => img.remove(); 
-      track.appendChild(img);
+track.innerHTML = "";
+dotsContainer.innerHTML = "";
 
-      const dot = document.createElement("span");
-      dot.classList.add("dot");
-      if (index === 0) dot.classList.add("active");
-      dot.onclick = () => goToSlide(index);
-      dotsContainer.appendChild(dot);
-    });
+async function renderGallery() {
+  let validImageIndex = 0;
+
+  for (const src of images) {
+    try {
+      const response = await fetch(src, { method: 'HEAD' });
+      
+      if (response.ok) {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = product.title;
+        img.classList.add("slider-img"); 
+        track.appendChild(img);
+
+        const dot = document.createElement("span");
+        dot.classList.add("dot");
+        if (validImageIndex === 0) dot.classList.add("active");
+        
+        const currentIndexForDot = validImageIndex;
+        dot.onclick = () => goToSlide(currentIndexForDot);
+        
+        dotsContainer.appendChild(dot);
+        validImageIndex++;
+      }
+    } catch (e) {
+      console.log(`Файл не знайдено: ${src}`);
+    }
+  }
+}
+
+await renderGallery();
 
     let currentIndex = 0;
 
