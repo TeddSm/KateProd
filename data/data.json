@@ -5602,5 +5602,290 @@
     "sale": false,
     "oldPrice": null,
     "length": 2000
+  },
+  {
+    "id": 212008,
+    "category": "molding",
+    "title": "PX103",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px103/px103.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний молдинг, що додає інтер’єру витонченого декоративного акценту. \nЗавдяки універсальному дизайну може також використовуватися як елегантне завершення підлогового плінтуса, забезпечуючи гармонійний і акуратний вигляд простору.",
+    "height": 25,
+    "width": 12,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212009,
+    "category": "molding",
+    "title": "PX113",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px113/px113.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний молдинг з асиметричним дизайном, що додає інтер’єру виразності та індивідуального характеру. \nЙого виважена, але нестандартна форма гармонійно виглядає як у класичних, так і в сучасних просторах, підкреслюючи архітектурну глибину та стиль.",
+    "height": 60,
+    "width": 27,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212010,
+    "category": "molding",
+    "title": "PX116",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px116/px116.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Лаконічний молдинг із лінійним візерунком та заокругленими кутами, що забезпечує стримане й елегантне оздоблення інтер’єру. \nЙого універсальний дизайн гармонійно вписується в будь-який простір, підкреслюючи чистоту форм і сучасну естетику.",
+    "height": 31,
+    "width": 10,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212011,
+    "category": "molding",
+    "title": "PX117",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px117/px117.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Лаконічний  молдинг із лінійним візерунком та зубчастим дизайном, що додає інтер’єру виразної структури та ритму.\nЙого стримана форма забезпечує акуратне та сучасне оздоблення стін, підкреслюючи архітектурну чіткість простору.",
+    "height": 35,
+    "width": 15,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212012,
+    "category": "molding",
+    "title": "PX120",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px120/px120.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Класичний молдинг, що додає інтер’єру витонченого декоративного акценту та м’якої елегантності. \nЗавдяки універсальному дизайну може також використовуватися як стильне завершення плінтуса, формуючи акуратний і гармонійний перехід у просторі.",
+    "height": 40,
+    "width": 19,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212013,
+    "category": "molding",
+    "title": "PX144",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px144/px144.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Профіль, що додає як класичним, так і сучасним інтер’єрам витонченої завершеності. \nЙого стриманий дизайн легко інтегрується в будь-який простір, підкреслюючи чистоту ліній і архітектурну гармонію. \nІдеально поєднується з профілем PX116.",
+    "height": 47,
+    "width": 8,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212014,
+    "category": "molding",
+    "title": "PX147",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px147/px147.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Лаконічний профіль, створений як основа для формування буазері. \nАдаптований край забезпечує швидкий та зручний монтаж, зберігаючи точність і чистоту ліній. \nЧасто використовується у поєднанні з молдингом PX169 для створення гармонійних настінних композицій.",
+    "height": 9,
+    "width": 169,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212015,
+    "category": "molding",
+    "title": "PX164",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px164/px164.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Багатофункціональний профіль у вигляді кутика. Підійде для приховання кабелів, та як захист на кути стін.",
+    "height": 30,
+    "width": 24,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212016,
+    "category": "molding",
+    "title": "PX169",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px169/px169.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Горизонтальний профіль, створений як завершальний елемент буазері у поєднанні з PX147. \nЗабезпечує акуратний і візуально цілісний перехід, підкреслюючи архітектурну структуру стіни. \nУ поєднанні з плінтусом дозволяє досягти ідеально завершеного та гармонійного інтер’єру.",
+    "height": 55,
+    "width": 34,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212017,
+    "category": "molding",
+    "title": "PX175",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px175/px175.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Додайте інтер’єру витонченої елегантності з цим класичним молдингом із м’яко вигнутою формою. \nЙого вишуканий силует створює делікатний декоративний акцент і підкреслює архітектурну гармонію простору. \nУ поєднанні з іншими елементами колекції HERITAGE дозволяє сформувати цілісний, збалансований та естетично довершений інтер’єр.",
+    "height": 50,
+    "width": 17,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212018,
+    "category": "molding",
+    "title": "PX198",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px198/px198.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Створені на основі культового U-профілю CX190, U-STEPS відкривають новий рівень дизайну стін.\nСистема легко трансформується у різні геометричні форми, дозволяючи створювати унікальні композиції без складних рішень.\nЗавдяки невеликій кількості декоративних елементів ви можете оживити не лише стіни, а й увесь простір, додаючи йому характеру та глибини.\nКожна композиція виглядає індивідуально — результат завжди унікальний.",
+    "height": 83,
+    "width": 20,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212019,
+    "category": "molding",
+    "title": "PX201",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px201/px201.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Витончена класика в компактному форматі.\nМенша версія профілю PX175 — ідеальне рішення для тих, хто цінує стриману елегантність у деталях.\nЦей декоративний молдинг із плавним класичним вигином додає простору м’якості та вишуканості, не перевантажуючи інтер’єр.\nЙого делікатний дизайн гармонійно вписується як у сучасні, так і в класичні простори, створюючи відчуття завершеності та стилю.",
+    "height": 25,
+    "width": 9,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212020,
+    "category": "molding",
+    "title": "PX202",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px202/px202.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Витончена класика з виразним акцентом\nБільша версія профілю PX175 — ідеальний вибір для створення більш помітних та виразних стінових композицій. \nЦей декоративний молдинг із плавним класичним вигином додає інтер’єру глибини, елегантності та завершеності.\nЗавдяки більшому формату він краще підкреслює геометрію простору та створює відчуття продуманого, дорогого дизайну, зберігаючи при цьому стриману класичну естетику.",
+    "height": 75,
+    "width": 20,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212021,
+    "category": "molding",
+    "title": "PX209",
+    "price": 0,
+    "img": "../../data/dataImg/molding/px209/px209.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Вишуканий новий профіль із м’яко заокругленою формою, створений для делікатного оздоблення стін та ідеальної інтеграції з усіма 3D стіновими панелями. \nВін елегантно нівелює стики між елементами, формуючи безшовний, архітектурно цілісний перехід у площині стіни. \nЗавдяки витонченому силуету профіль може також використовуватися як самостійний декоративний акцент, що додає інтер’єру стриманої, але виразної естетики.",
+    "height": 10,
+    "width": 18,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
+  },
+  {
+    "id": 212022,
+    "category": "molding",
+    "title": "SX157",
+    "price": 0,
+    "img": "../../data/dataImg/molding/sx157/sx157.webp",
+    "brand": "ORAC",
+    "material": "duropolymer",
+    "materialDisplay": "Duropolymer",
+    "usage": [
+      "wall-ceiling"
+    ],
+    "desc": "Найвитонченіший мінімалістичний профіль із колекції SQUARE, створений для бездоганної архітектурної цілісності простору. \nЙого універсальна форма дозволяє делікатно об’єднати всі приміщення в єдину естетику, зберігаючи чистоту ліній та вишукану стриманість інтер’єру. \nДоступний у різних розмірах — для ідеальної пропорції у кожному просторі.",
+    "height": 65,
+    "width": 13,
+    "sale": false,
+    "oldPrice": null,
+    "length": 2000
   }
 ]
