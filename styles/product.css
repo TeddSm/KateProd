@@ -58,6 +58,12 @@
   background: #f9f9f9;
 }
 
+@media (max-width: 768px) {
+  .slider-track img {
+  max-height: 380px;
+  }
+}
+
 .slider-btn {
   position: absolute;
   top: 50%;
