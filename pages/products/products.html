@@ -88,13 +88,15 @@
             <img src="../../images/logo/ld-logo-black.png" class="ld-logo" />
           </a>
           <ul class="nav-list-right nav-list">
-            <li><a href="index.html" class="nav-list-item">ЗАВАНТАЖЕННЯ</a></li>
-            <li><a href="#contacts" class="nav-list-item">КОНТАКТИ</a></li>
+            <li><a href="../../pages/downloads.html" class="nav-list-item">ЗАВАНТАЖЕННЯ</a></li>
+            <li><a href="../../pages/contacts.html" class="nav-list-item">КОНТАКТИ</a></li>
             <li class="search-item">
                 <button id="openSearchBtn" class="open-search-btn"><img src="../../images/icons/search.png" class="search-icon" /></button>
               <div class="search-container" id="searchContainer">
-<input type="text" id="search-input" placeholder="Пошук за назвою..." />
-      <button class="back-btn" id="search-btn">Пошук</button>
+                 <div class="search-group">
+<input type="text" id="searchInputHeader" class="search-input" placeholder="Пошук за назвою..." />
+      <button class="back-btn search-btn" >Пошук</button>
+      </div>
       <img
                 src="../../images/icons/close.png"
                 class="close-search-icon"
@@ -112,7 +114,7 @@
             />
           </button>
         </nav>
-        <section class="menu-mobile" id="menuMobile">
+       <section class="menu-mobile" id="menuMobile">
           <div class="container menu-container">
             <button class="menu-close-btn" id="close-btn">
               <img
@@ -121,22 +123,49 @@
                 alt="Закрити"
               />
             </button>
-            <h2 class="menu-title">Меню</h2>
+            <div class="menu-title">
+            <img src="../../images/logo/ld-logo-black.png" class="ld-logo-mobile" />
+          </div>
             <nav class="menu-nav">
               <ul class="menu-list">
                 <li class="menu-item">
-                  <a href="../../pages/products/products.html" class="menu-link"
-                    >Продукція</a
-                  >
+                 <h3 class="menu-list-title">Продукція<svg
+                  class="mobile-menu-arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h3>
+                  <div class="mobile-menu-section">
+                    <ul class="menu-productions-list">
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/products.html">Вся продукція</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/cornies.html">Карнизи</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/moldings.html">Молдинги</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/skirting.html">Плінтуса</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/wallpanels.html">Стінові 3D панелі</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/light.html">Світлові рішення</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/scenery.html">Декоративні елементи</a></li>
+                    <li class="menu-products-item"><a class="mobile-menu-link" href="../../pages/products/glues-tools.html">Клеї та інструменти</a></li>
+                    </ul>
+                  </div>
                 </li>
                 <li class="menu-item">
-                  <a href="./.html" class="menu-link">Натхнення</a>
+                <a href="./.html" class="menu-list-title">Натхнення</a>
                 </li>
                 <li class="menu-item">
-                  <a href="./.html" class="menu-link">Завантаження</a>
+                  <a href="./.html" class="menu-list-title">Завантаження</a>
                 </li>
                 <li class="menu-item">
-                  <a href="./.html" class="menu-link">Контакти</a>
+                  <a href="./.html" class="menu-list-title">Контакти</a>
                 </li>
               </ul>
             </nav>
@@ -159,17 +188,44 @@
           </div>
           <h1 class="hero-text-title">КАТАЛОГ</h1>
           <h2 class="hero-text-pages">
-            На цій сторінці буде вся Продукція
+            Тут буде вся продукція
           </h2>
         </div>
       </section>
       <div class="container main-container">
+        <div class="tools-container">
+        <section class="mobile-search-section">
+<div class="mobile-search-container">
+  <h2 id="mobileSearchToggle" class="mobile-search-title tools-container-title">ПОШУК <svg
+                  class="arrow"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L13 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg></h2>
+  <div id="mobileSearchContent" class="mobile-search-content">
+   <div class="search-group tools-search-group">
+  <input type="text" id="filterSearchInput" class="search-input" placeholder="Пошук за назвою..." />
+  <button class="search-btn back-btn">Пошук</button>
+</div>
+  </div>
+  </div>
+          </section>
         <section class="filter-section">
           <div
-            class="container filter-container filter-menu-container"
+            class="filter-container filter-menu-container"
             id="filterContainer"
           >
-            <h2 id="mainFilterToggle" class="filter-title">ФІЛЬТР <svg
+            <h2 id="mainFilterToggle" class="filter-title tools-container-title">ФІЛЬТР <svg
                   class="arrow"
                   width="14"
                   height="8"
@@ -451,6 +507,7 @@
             </button>
             </div>
         </section>
+        </div>
         <section class="products-section">
           <div class="container">
             <ul id="productList" class="product-list"></ul>
@@ -558,7 +615,12 @@
       </div>
     </footer>
     <div id="toast-container" class="toast-container"></div>
+    <button id="backToTop" class="back-to-top" aria-label="Вгору"><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M13 7L7 1L1 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    </button>
   </body>
+  <script type="module" src="../../scripts/global.js"></script>
   <script type="module" src="../../scripts/main.js"></script>
   <script type="module" src="../../scripts/btns.js"></script>
 </html>

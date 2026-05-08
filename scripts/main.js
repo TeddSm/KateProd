@@ -101,13 +101,6 @@ export async function init() {
   renderProducts(filteredData);
 }
 
-document.querySelectorAll(".menu-list-title").forEach((title) => {
-  title.addEventListener("click", () => {
-    const parent = title.parentElement;
-    parent.classList.toggle("active");
-  });
-});
-
 init();
 
 
