@@ -50,6 +50,9 @@
 
 .slider-track img {
   width: 100%;
+  max-width: 700px;
+  height: 100%;
+  max-height: 700px;
   flex-shrink: 0; 
   object-fit: contain;
   background: #f9f9f9;
