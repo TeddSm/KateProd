@@ -59,10 +59,21 @@ export function renderProducts(productsArray) {
   };
 
 
+  const categoryNames = {
+    molding: "Молдинги",
+skirting: "Плінтуса",
+wallpanel: "Стінові 3D панелі",
+light: "Світлові рішення",
+scenery: "Декоративні елементи",
+tool: "Клеї та інструмент",
+cornice: "Карнизи"
+  }
+
 let allCardsHTML = "";
 
  productsArray.forEach((product) => {
     const displayBrand = brandNames[product.brand.toLowerCase()] || product.brand;
+    const displayCategory = categoryNames[product.category.toLowerCase()] || product.category;
     let priceHTML = `Ціна: <span>${product.price}</span> грн`;
     let saleBadgeHTML = "";
 
@@ -81,6 +92,7 @@ let allCardsHTML = "";
                         </div>
                         <div class="product-card-body">
                             <h3 class="product-card-title">${product.title.replace("-", " ")}</h3>
+                             <p class="product-card-category">${displayCategory}</p>
                             <p class="product-card-brand">${displayBrand}</p>
                             <p class="product-card-material">${product.materialDisplay}®</p>
                             <p class="product-card-size">${product.width}x${product.height}hx${product.length}</p>
